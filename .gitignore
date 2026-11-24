@@ -1,0 +1,32 @@
+﻿# Environment dan secret
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Log dan file backup
+*.log
+*.bak
+backups/
+
+# Data yang dikecualikan
+data/raw/
+data/markdown/
+data/json/
+
+# Git dan OS
+.git/
+.DS_Store
+Thumbs.db
+
+*-bak
+
+data/_spike/

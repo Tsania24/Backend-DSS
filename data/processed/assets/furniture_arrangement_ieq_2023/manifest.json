@@ -1,0 +1,121 @@
+{
+  "document_id": "furniture_arrangement_ieq_2023",
+  "extraction_tool": "pymupdf",
+  "source_json": "data/llamaparse_playground_original/furniture_arrangement_ieq_2023 (1).json",
+  "source_pdf": "data/raw/furniture_arrangement_ieq_2023.pdf",
+  "images": [
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 11,
+      "item_index": 10,
+      "bbox": {
+        "x": 298.233276,
+        "y": 539.370612,
+        "w": 242.27733199999997,
+        "h": 151.846272,
+        "confidence": 0.95,
+        "start_index": 0,
+        "end_index": 0,
+        "label": "image"
+      },
+      "bbox_confidence": 0.95,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_11_item_010.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    },
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 11,
+      "item_index": 12,
+      "bbox": {
+        "x": 52.98,
+        "y": 59.31,
+        "w": 235.13,
+        "h": 149.47,
+        "confidence": 0.98,
+        "label": "image"
+      },
+      "bbox_confidence": 0.98,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_11_item_012.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    },
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 11,
+      "item_index": 13,
+      "bbox": {
+        "x": 298.83,
+        "y": 62.48,
+        "w": 241.68,
+        "h": 147.1,
+        "confidence": 0.97,
+        "label": "image"
+      },
+      "bbox_confidence": 0.97,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_11_item_013.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    },
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 11,
+      "item_index": 14,
+      "bbox": {
+        "x": 52.98,
+        "y": 537.79,
+        "w": 241.09,
+        "h": 153.43,
+        "confidence": 0.96,
+        "label": "image"
+      },
+      "bbox_confidence": 0.96,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_11_item_014.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    },
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 12,
+      "item_index": 3,
+      "bbox": {
+        "x": 298.233276,
+        "y": 224.60594399999997,
+        "w": 243.46788399999997,
+        "h": 183.48091200000002,
+        "confidence": 0.87,
+        "start_index": 0,
+        "end_index": 0,
+        "label": "image"
+      },
+      "bbox_confidence": 0.87,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_12_item_003.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    },
+    {
+      "document_id": "furniture_arrangement_ieq_2023",
+      "page_number": 12,
+      "item_index": 12,
+      "bbox": {
+        "x": 52.98,
+        "y": 219.86,
+        "w": 235.13,
+        "h": 226.19,
+        "confidence": 0.91,
+        "label": "image"
+      },
+      "bbox_confidence": 0.91,
+      "output_path": "data/processed/assets/furniture_arrangement_ieq_2023/page_12_item_012.png",
+      "caption": "",
+      "caption_association_status": "unassigned",
+      "extraction_status": "SUCCESS"
+    }
+  ],
+  "errors": []
+}

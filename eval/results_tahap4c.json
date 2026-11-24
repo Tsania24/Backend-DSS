@@ -1,0 +1,460 @@
+{
+  "timestamp": "2026-11-24 11:23:00",
+  "regression_tahap3c": [
+    {
+      "label": "a",
+      "prompt": "Apa itu persamaan Bellman di paper ini?",
+      "duration": 17.01,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Bellman equation reinforcement learning",
+            "top_k": 5,
+            "content_type": "formula"
+          }
+        }
+      ],
+      "response": "Persamaan Bellman memperbarui nilai Q(s,a), yaitu perkiraan manfaat memilih aksi a pada keadaan s. Dalam paper:\n\nQ(s,a) ← (1 − α)Q(s,a) + α[R + γ · maxₐ′ Q(s′,a′)]\n\nArtinya, nilai Q diperbarui dengan menggabungkan perkiraan lama dan informasi baru: reward R yang diterima setelah berpindah ke keadaan s′, ditambah perkiraan reward masa depan terbaik. α adalah laju pembelajaran—seberapa besar informasi baru mengubah nilai lama—sedangkan γ menentukan bobot reward masa depan. [Hal. 3–4, Section 3.2 Reinforcement learning and multi-objective RL]\n\nDalam konteks MORL paper ini, tiap tujuan memiliki reward dan pembaruan Q sendiri; misalnya kenyamanan termal, akustik, dan visual. [Hal. 4, Section 3.2 Reinforcement learning and multi-objective RL]"
+    },
+    {
+      "label": "b",
+      "prompt": "Berapa waktu eksekusi NSGA-II dan MORL pada Test 5?",
+      "duration": 9.29,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "NSGA-II MORL execution time Test 5",
+            "top_k": 5,
+            "content_type": "figure"
+          }
+        }
+      ],
+      "response": "Pada Test 5, waktu eksekusi NSGA-II adalah 20,52 detik, sedangkan MORL 19,39 detik. [Hal. 20–21, Section 6.2: Comparison with NSGA-II]"
+    },
+    {
+      "label": "c",
+      "prompt": "Apa resep nasi goreng?",
+      "duration": 8.36,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "nasi goreng recipe cooking rice ingredients",
+            "top_k": 3
+          }
+        }
+      ],
+      "response": "Maaf, resep nasi goreng di luar cakupan sistem, dan informasinya tidak ada di dokumen yang tersedia."
+    },
+    {
+      "label": "d",
+      "prompt": "Taruh meja di lantai",
+      "duration": 6.19,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__spawn_furniture",
+          "arguments": {
+            "asset_id": "TAB_01_01",
+            "surface_label": "FLOOR"
+          }
+        }
+      ],
+      "response": "Meja Executive Study Desk (TAB_01_01) berhasil masuk antrean penempatan di lantai."
+    }
+  ],
+  "mode2_tahap4c": [
+    {
+      "id": "Q19",
+      "type": "cross_section",
+      "language": "id",
+      "question": "Bagaimana perbedaan karakteristik fisik Office #1 dan Office #2 (Section 5) dan bagaimana kaitannya dengan hasil total reward kedua kantor pada Table 1 (Section 5.1)?",
+      "expected_answer": "Office #1 berukuran 4.5 × 3.5 × 2.8 m, lantai 15.75 m2, jendela 4 m2, dinding 40.8 m2, AC_R 13.65, satu jendela barat-laut dan satu AC; Office #2 lantai 14.75 m2, jendela 8 m2, dinding 36.8 m2, AC_R 14.28, dua jendela (barat-laut dan utara) dan dua AC; Table 1 (Mean 558.80 vs 561.27, DevStand 1.63 vs 1.20).",
+      "expected_chunk_ids": [
+        "chunk_021",
+        "chunk_022",
+        "chunk_023",
+        "chunk_025"
+      ],
+      "elapsed_seconds": 27.49,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Office #1 Office #2 physical characteristics Section 5 total reward Table 1",
+            "top_k": 6
+          }
+        },
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Table 1 total reward Office #1 Office #2",
+            "content_type": "table",
+            "top_k": 4
+          }
+        },
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Office #1 Office #2 physical characteristics Section 5 total reward Table 1",
+            "top_k": 6
+          }
+        },
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Office #1 room dimensions window orientation door AC noise sources Office #2 shape dimensions windows",
+            "top_k": 5
+          }
+        }
+      ],
+      "agent_queries": [
+        "Office #1 Office #2 physical characteristics Section 5 total reward Table 1",
+        "Table 1 total reward Office #1 Office #2",
+        "Office #1 Office #2 physical characteristics Section 5 total reward Table 1",
+        "Office #1 room dimensions window orientation door AC noise sources Office #2 shape dimensions windows"
+      ],
+      "citations": [
+        "[Hal. 8–9, Section 5 Experimental evaluation]",
+        "[Hal. 9–10, Section 5.1 Results and discussions; Hal. 12–13, Section 5.1 Results and discussions]"
+      ],
+      "full_response": "Office #1 berukuran 4,5 × 3,5 × 2,8 m dan memiliki satu jendela besar menghadap barat laut serta satu unit AC. Area lantainya 15,75 m². Cahaya alami tidak merata: bagian tengah sekitar 300 lx, dekat jendela 500–800 lx, dan sudut kiri atas hanya 50–130 lx.\n\nOffice #2 berbentuk tidak beraturan dan sedikit lebih kecil: luas lantai 14,75 m². Kantor ini memiliki dua jendela—menghadap barat laut dan utara—serta dua unit AC di dinding berlawanan. Dua orientasi jendela memberi sebaran cahaya yang lebih baik; area dekat jendela utara sekitar 400–550 lx dan dekat jendela barat laut 500–700 lx. [Hal. 8–9, Section 5 Experimental evaluation]\n\nPada Table 1, Office #2 memperoleh total reward rata-rata sedikit lebih tinggi: 561,27 dibanding 558,80 pada Office #1. Nilai maksimum/minimumnya juga lebih tinggi (563,21/558,92 vs. 561,46/553,66), sementara deviasi standarnya lebih kecil (1,20 vs. 1,63). Jadi hasil Office #2 sedikit lebih baik dan lebih konsisten. Penulis mengaitkan keunggulan IEQ visual Office #2 dengan dua jendelanya yang berorientasi berbeda. Namun, Table 1 tidak membuktikan bahwa perbedaan fisik itu satu-satunya penyebab reward lebih tinggi: kenyamanan termal memenuhi standar di kedua kantor, sedangkan akustik tetap di bawah standar. [Hal. 9–10, Section 5.1 Results and discussions; Hal. 12–13, Section 5.1 Results and discussions]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q21",
+      "type": "cross_section",
+      "language": "id",
+      "question": "Mengapa performa tata letak pada Office #2 dilaporkan lebih baik dan lebih konsisten dibandingkan Office #1?",
+      "expected_answer": "Berdasarkan paper, Office #2 mencatat rata-rata total reward lebih tinggi (Mean 561.27 vs 558.80) dan deviasi standar lebih rendah (1.20 vs 1.63) yang menunjukkan stabilitas hasil lebih tinggi. Paper mencatat perbedaan fisik bahwa Office #1 berukuran 4.5 × 3.5 × 2.8 m (lantai 15.75 m2, jendela 4 m2, dinding 40.8 m2, AC_R 13.65, satu jendela barat-laut dan satu AC), sedangkan Office #2 memiliki denah non-persegi panjang (lantai 14.75 m2, jendela 8 m2, dinding 36.8 m2, AC_R 14.28, dua jendela dan dua AC). Namun, paper tidak memberikan penjelasan kausal teoritis mengapa Office #2 berkinerja lebih baik, melainkan hanya melaporkan temuan komparatif empiris tersebut (Hal. 8–10).",
+      "expected_chunk_ids": [
+        "chunk_021",
+        "chunk_022",
+        "chunk_023",
+        "chunk_025"
+      ],
+      "elapsed_seconds": 15.69,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Office #2 Office #1 layout performance consistency results IEQ furniture arrangement",
+            "top_k": 5
+          }
+        }
+      ],
+      "agent_queries": [
+        "Office #2 Office #1 layout performance consistency results IEQ furniture arrangement"
+      ],
+      "citations": [
+        "[Hal. 9–13, Section 5 Experimental evaluation > 5.1 Results and discussions]"
+      ],
+      "full_response": "Office #2 memperoleh reward rata-rata lebih tinggi (561,27 vs. 558,80) dan simpangan baku lebih rendah (1,20 vs. 1,63). Jadi, tata letak yang ditemukan bukan hanya sedikit lebih baik secara rata-rata, tetapi hasil antarpercobaannya juga lebih seragam. Rentang reward Office #2 juga lebih sempit: 558,92–563,21, dibandingkan 553,66–561,46 pada Office #1.\n\nPaper mengaitkan perbedaan hasil dengan karakteristik fisik kantor yang memengaruhi kenyamanan lingkungan. Secara khusus, dua jendela dengan orientasi berbeda di Office #2 meningkatkan kenyamanan visual; Office #1 sulit mencapai standar kenyamanan visual pada siang hari karena orientasi jendelanya membatasi distribusi cahaya. Namun, akustik tetap di bawah standar pada kedua kantor, dan kenyamanan termalnya memenuhi standar. [Hal. 9–13, Section 5 Experimental evaluation > 5.1 Results and discussions]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q22",
+      "type": "figure",
+      "language": "id",
+      "question": "Seberapa stabil hasil optimasi MORL jika dibandingkan dengan algoritma reinforcement learning lainnya seperti PPO, DQN, dan A2C?",
+      "expected_answer": "Berdasarkan evaluasi perbandingan metode RL pada Section 6.1 (Fig. 15, Hal. 18), MORL menghasilkan deviasi standar reward total (IEQ_Tot) paling rendah dan paling konsisten di semua pengujian. Contohnya pada Test 1, deviasi standar MORL adalah 1.66, jauh lebih rendah dan lebih stabil dibandingkan PPO (3.17), DQN (6.42), dan A2C (9.02). Deviasi standar yang rendah membuktikan MORL sangat stabil dan tidak rentan terhadap fluktuasi acak selama pelatihan.",
+      "expected_chunk_ids": [
+        "chunk_034",
+        "chunk_035"
+      ],
+      "elapsed_seconds": 14.07,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "MORL PPO DQN A2C stability robustness comparative optimization results",
+            "top_k": 7
+          }
+        }
+      ],
+      "agent_queries": [
+        "MORL PPO DQN A2C stability robustness comparative optimization results"
+      ],
+      "citations": [
+        "[Hal. 12–13, Section 6; Hal. 17–19, Section 6.1]"
+      ],
+      "full_response": "Dalam eksperimen paper, MORL tampak paling stabil di antara MORL, PPO, DQN, dan A2C: standar deviasi hasil IEQ_Tot-nya paling rendah pada kelima pengujian. Variabilitas MORL juga menurun seiring bertambahnya langkah pembelajaran, dan penulis menyebut pembelajarannya makin terkonsolidasi pada 5 × 10³ langkah. Sebaliknya, A2C menunjukkan variabilitas lebih tinggi; PPO dan DQN memerlukan lebih banyak langkah untuk memperoleh hasil yang lebih terkonsolidasi.\n\nKesimpulan ini terbatas pada eksperimen penataan furnitur yang dilaporkan—setiap eksperimen diulang 10 kali—bukan jaminan bahwa MORL selalu lebih stabil untuk tugas lain. [Hal. 12–13, Section 6; Hal. 17–19, Section 6.1]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q23",
+      "type": "text",
+      "language": "id",
+      "question": "Berapa standar tingkat bising yang direkomendasikan untuk ruang kantor, dan apakah ruangan kantor uji memenuhi standar tersebut?",
+      "expected_answer": "Standar kenyamanan akustik merekomendasikan tingkat tekanan suara sebesar 45 dB (dengan ambang indeks akustik ACindex > 95). Kedua kantor uji tidak memenuhi standar tersebut: pada Office #1 tingkat tekanan suara di setiap posisi mencapai sekitar 50 dB (Hal. 11), dan pada Office #2 tingkat tekanan suara di posisi pekerja mencapai sekitar 52 dB (Hal. 12). Akibatnya, kenyamanan akustik di kedua kantor berada di luar batas yang dapat diterima tanpa modifikasi desain ruangan.",
+      "expected_chunk_ids": [
+        "chunk_026",
+        "chunk_027",
+        "chunk_028"
+      ],
+      "elapsed_seconds": 16.37,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "office acoustic noise sound level recommended standard test office room dB",
+            "top_k": 5
+          }
+        }
+      ],
+      "agent_queries": [
+        "office acoustic noise sound level recommended standard test office room dB"
+      ],
+      "citations": [
+        "[Hal. 11–12, Section 5.1 Results and discussions; Hal. 12–13, Section 5 Experimental evaluation > 5.1 Results and discussions]"
+      ],
+      "full_response": "Standar akustik yang direkomendasikan adalah 45 dB. Kedua kantor uji tidak memenuhi standar: tingkat kebisingan di Office #1 sekitar 50 dB, sedangkan di Office #2 sekitar 52 dB. [Hal. 11–12, Section 5.1 Results and discussions; Hal. 12–13, Section 5 Experimental evaluation > 5.1 Results and discussions]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q24",
+      "type": "table",
+      "language": "en",
+      "question": "How does placing an occupant's chair close to the window affect their thermal comfort in Office #2 Layout Pattern #2?",
+      "expected_answer": "Layout Pattern #2 Office #2 punya indeks termal lebih rendah (93.0 untuk User #1, Table 5); paper menjelaskannya dengan kedekatan kursi pekerja ke jendela.",
+      "expected_chunk_ids": [
+        "chunk_026",
+        "chunk_027"
+      ],
+      "elapsed_seconds": 10.54,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "Office #2 Layout Pattern #2 occupant chair close to window thermal comfort",
+            "top_k": 5,
+            "content_type": "figure"
+          }
+        }
+      ],
+      "agent_queries": [
+        "Office #2 Layout Pattern #2 occupant chair close to window thermal comfort"
+      ],
+      "citations": [],
+      "full_response": "In Office #2 Layout Pattern #2, placing the chair near the window reduces thermal comfort: the window has a lower mean radiant temperature than the other surfaces, which can make the occupant feel thermally dissatisfied. The pattern’s thermal comfort index is 93.0 for User #1, compared with 95.0 for User #2; both remain above the paper’s 90 threshold. [pp. 10–12, Section 5.1, “Results and discussions”]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q25",
+      "type": "figure",
+      "language": "en",
+      "question": "How does the multi-objective reinforcement learning approach compare to the genetic algorithm NSGA-II in terms of execution time across different test scenarios?",
+      "expected_answer": "According to Section 6.2 (pages 19–21), the paper states that MORL finds optimal solutions in comparable times (Fig. 19) while achieving lower variability (Fig. 18). Printed execution times in Fig. 19 show MORL is slightly faster across all tests: Test 1 (4.00 s vs 4.40 s), Test 2 (7.82 s vs 8.52 s), Test 3 (11.58 s vs 12.61 s), Test 4 (15.68 s vs 16.37 s), and Test 5 (19.39 s vs 20.52 s).",
+      "expected_chunk_ids": [
+        "chunk_038"
+      ],
+      "elapsed_seconds": 10.92,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "MORL NSGA-II execution time different test scenarios",
+            "top_k": 8,
+            "content_type": "figure"
+          }
+        }
+      ],
+      "agent_queries": [
+        "MORL NSGA-II execution time different test scenarios"
+      ],
+      "citations": [],
+      "full_response": "MORL was slightly faster than NSGA-II in all five test scenarios:\n\nTest 1: MORL 4.00 s vs NSGA-II 4.40 s\nTest 2: 7.82 s vs 8.52 s\nTest 3: 11.58 s vs 12.61 s\nTest 4: 15.68 s vs 16.37 s\nTest 5: 19.39 s vs 20.52 s\n\nExecution time rose for both methods across the tests, but MORL remained faster each time. [pp. 20–21, Section 6.2 “Comparison with NSGA-II”]",
+      "needs_manual_check": true
+    },
+    {
+      "id": "Q26",
+      "type": "text",
+      "language": "id",
+      "question": "Bagaimana pembobotan prioritas antara kepuasan kenyamanan lingkungan (IEQ) dan kendala jarak spasial pada fungsi reward penataan furnitur?",
+      "expected_answer": "Berdasarkan Section 5 (Hal. 9), bobot vektor tujuan Algoritma 3 ditetapkan W = (0.4, 0.4, 0.2). Bobot 0.4 untuk kepuasan IEQ masing-masing pengguna (R_user1 dan R_user2) dan bobot 0.2 untuk jarak antar pengguna (R_dist-users) menunjukkan bahwa kepuasan kualitas lingkungan dalam ruangan diprioritaskan lebih tinggi dibandingkan jarak antar pengguna.",
+      "expected_chunk_ids": [
+        "chunk_024"
+      ],
+      "elapsed_seconds": 11.97,
+      "tools_called": [
+        {
+          "tool": "mcp__DSS_Adaptive_Building__search_documents",
+          "arguments": {
+            "query": "IEQ satisfaction spatial distance constraints reward function weighting priority furniture arrangement",
+            "top_k": 5
+          }
+        }
+      ],
+      "agent_queries": [
+        "IEQ satisfaction spatial distance constraints reward function weighting priority furniture arrangement"
+      ],
+      "citations": [
+        "[Hal. 9–10, Section 5 Experimental evaluation]",
+        "[Hal. 9–10, Section 5 Experimental evaluation]"
+      ],
+      "full_response": "Bobotnya ditetapkan sebagai W = (0,4; 0,4; 0,2): kepuasan IEQ kedua penghuni mendapat bobot lebih besar daripada jarak antar-penghuni. Artinya, fungsi reward memprioritaskan kenyamanan IEQ, tetapi tetap mempertimbangkan jarak sebagai objektif tersendiri—bukan mengabaikannya. [Hal. 9–10, Section 5 Experimental evaluation]\n\nDi dalam komponen IEQ, kenyamanan termal, akustik, dan visual diasumsikan berbobot sama, masing-masing p = 0,33. [Hal. 9–10, Section 5 Experimental evaluation]",
+      "needs_manual_check": true
+    }
+  ],
+  "mode1_retrieval_agent_queries_tahap4c": [
+    {
+      "id": "Q21",
+      "question": "Mengapa performa tata letak pada Office #2 dilaporkan lebih baik dan lebih konsisten dibandingkan Office #1?",
+      "query": "Office #2 Office #1 layout performance consistency results IEQ furniture arrangement",
+      "expected_chunk_ids": [
+        "chunk_021",
+        "chunk_022",
+        "chunk_023",
+        "chunk_025"
+      ],
+      "retrieved_top5": [
+        "chunk_028",
+        "chunk_027",
+        "chunk_026",
+        "chunk_025",
+        "chunk_022"
+      ],
+      "target_ranks": {
+        "chunk_021": ">5",
+        "chunk_022": 5,
+        "chunk_023": ">5",
+        "chunk_025": 4
+      },
+      "target_rank": 4,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 1,
+      "recall@5": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "id": "Q22",
+      "question": "Seberapa stabil hasil optimasi MORL jika dibandingkan dengan algoritma reinforcement learning lainnya seperti PPO, DQN, dan A2C?",
+      "query": "MORL PPO DQN A2C stability robustness comparative optimization results",
+      "expected_chunk_ids": [
+        "chunk_034",
+        "chunk_035"
+      ],
+      "retrieved_top5": [
+        "chunk_035",
+        "chunk_034",
+        "chunk_033",
+        "chunk_036",
+        "chunk_031"
+      ],
+      "target_ranks": {
+        "chunk_034": 2,
+        "chunk_035": 1
+      },
+      "target_rank": 1,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "recall@5": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "id": "Q23",
+      "question": "Berapa standar tingkat bising yang direkomendasikan untuk ruang kantor, dan apakah ruangan kantor uji memenuhi standar tersebut?",
+      "query": "office acoustic noise sound level recommended standard test office room dB",
+      "expected_chunk_ids": [
+        "chunk_026",
+        "chunk_027",
+        "chunk_028"
+      ],
+      "retrieved_top5": [
+        "chunk_027",
+        "chunk_012",
+        "chunk_029",
+        "chunk_021",
+        "chunk_028"
+      ],
+      "target_ranks": {
+        "chunk_026": ">5",
+        "chunk_027": 1,
+        "chunk_028": 5
+      },
+      "target_rank": 1,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "recall@5": 0.67,
+      "mrr": 1.0
+    },
+    {
+      "id": "Q24",
+      "question": "How does placing an occupant's chair close to the window affect their thermal comfort in Office #2 Layout Pattern #2?",
+      "query": "Office #2 Layout Pattern #2 occupant chair close to window thermal comfort",
+      "expected_chunk_ids": [
+        "chunk_026",
+        "chunk_027"
+      ],
+      "retrieved_top5": [
+        "chunk_026",
+        "chunk_028",
+        "chunk_027",
+        "chunk_025",
+        "chunk_001"
+      ],
+      "target_ranks": {
+        "chunk_026": 1,
+        "chunk_027": 3
+      },
+      "target_rank": 1,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "recall@5": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "id": "Q25",
+      "question": "How does the multi-objective reinforcement learning approach compare to the genetic algorithm NSGA-II in terms of execution time across different test scenarios?",
+      "query": "MORL NSGA-II execution time different test scenarios",
+      "expected_chunk_ids": [
+        "chunk_038"
+      ],
+      "retrieved_top5": [
+        "chunk_038",
+        "chunk_037",
+        "chunk_035",
+        "chunk_036",
+        "chunk_034"
+      ],
+      "target_ranks": {
+        "chunk_038": 1
+      },
+      "target_rank": 1,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "recall@5": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "id": "Q26",
+      "question": "Bagaimana pembobotan prioritas antara kepuasan kenyamanan lingkungan (IEQ) dan kendala jarak spasial pada fungsi reward penataan furnitur?",
+      "query": "IEQ satisfaction spatial distance constraints reward function weighting priority furniture arrangement",
+      "expected_chunk_ids": [
+        "chunk_024"
+      ],
+      "retrieved_top5": [
+        "chunk_014",
+        "chunk_001",
+        "chunk_025",
+        "chunk_024",
+        "chunk_015"
+      ],
+      "target_ranks": {
+        "chunk_024": 4
+      },
+      "target_rank": 4,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 1,
+      "recall@5": 1.0,
+      "mrr": 0.25
+    }
+  ]
+}

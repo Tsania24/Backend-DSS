@@ -1,0 +1,7 @@
+{
+  "source": "/home/advance/backend-dss/data/llamaparse_playground_original/furniture_arrangement_ieq_2023.md",
+  "output": "/home/advance/backend-dss/data/markdown/furniture_arrangement_ieq_2023_clean.md",
+  "fixes_applied_count": 7,
+  "issues_count": 0,
+  "issues": []
+}

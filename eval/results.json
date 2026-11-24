@@ -1,0 +1,1769 @@
+{
+  "timestamp": "2026-11-24 10:35:39",
+  "total_questions": 20,
+  "mode1_direct_retrieval": {
+    "summary_overall_in_domain": {
+      "count": 16,
+      "hit@1": 0.625,
+      "hit@3": 0.875,
+      "hit@5": 0.9375,
+      "mrr": 0.7552,
+      "false_no_relevant_count": 0
+    },
+    "summary_by_type": {
+      "text": {
+        "count": 5,
+        "hit@1": 0.2,
+        "hit@3": 0.6,
+        "hit@5": 0.8,
+        "mrr": 0.4167
+      },
+      "table": {
+        "count": 5,
+        "hit@1": 0.6,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.8
+      },
+      "figure": {
+        "count": 3,
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "formula": {
+        "count": 3,
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 1.0
+      },
+      "out_of_domain": {
+        "count": 1,
+        "no_relevant_result_count": 0,
+        "accuracy": 0.0
+      },
+      "out_of_domain_near": {
+        "count": 1,
+        "no_relevant_result_count": 0,
+        "accuracy": 0.0
+      },
+      "cross_section": {
+        "count": 2,
+        "hit@1": 0.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0,
+        "mrr": 0.4166,
+        "avg_recall@5": 1.0
+      }
+    },
+    "items": [
+      {
+        "id": "Q01",
+        "type": "text",
+        "language": "en",
+        "question": "What are the three indoor comfort sub-indexes that compose the overall IEQ index in this paper?",
+        "query_en": "IEQ three indoor comfort sub-indexes thermal acoustic visual",
+        "expected_chunk_ids": [
+          "chunk_015"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_007",
+          "chunk_029",
+          "chunk_015",
+          "chunk_026",
+          "chunk_027"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_007",
+            "page_number": 3,
+            "similarity": 0.6695,
+            "fts_rank": 2.6,
+            "rrf_score": 0.032266
+          },
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.633,
+            "fts_rank": 2.9,
+            "rrf_score": 0.032266
+          },
+          {
+            "chunk_id": "chunk_015",
+            "page_number": 6,
+            "similarity": 0.6671,
+            "fts_rank": 2.2,
+            "rrf_score": 0.031514
+          },
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.5574,
+            "fts_rank": 2.6,
+            "rrf_score": 0.031281
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.5862,
+            "fts_rank": 2.4,
+            "rrf_score": 0.03101
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.3333,
+        "first_target_rank": 3,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q02",
+        "type": "text",
+        "language": "id",
+        "question": "Berapa jumlah pengujian (tests) dan jumlah episode per pengujian yang dieksekusi untuk setiap kantor pada evaluasi eksperimental?",
+        "query_en": "number of tests episodes experimental evaluation 20 tests 40000 episodes",
+        "expected_chunk_ids": [
+          "chunk_025"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_035",
+          "chunk_038",
+          "chunk_034",
+          "chunk_033",
+          "chunk_036"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.4632,
+            "fts_rank": 1.8,
+            "rrf_score": 0.032266
+          },
+          {
+            "chunk_id": "chunk_038",
+            "page_number": 21,
+            "similarity": 0.3602,
+            "fts_rank": 1.8,
+            "rrf_score": 0.031281
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.3837,
+            "fts_rank": 1,
+            "rrf_score": 0.031258
+          },
+          {
+            "chunk_id": "chunk_033",
+            "page_number": 17,
+            "similarity": 0.4287,
+            "fts_rank": 0.8,
+            "rrf_score": 0.030835
+          },
+          {
+            "chunk_id": "chunk_036",
+            "page_number": 19,
+            "similarity": 0.3804,
+            "fts_rank": 1,
+            "rrf_score": 0.030777
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@5": 0,
+        "mrr": 0.0,
+        "first_target_rank": null,
+        "recall@5": 0.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q03",
+        "type": "text",
+        "language": "en",
+        "question": "What environmental comfort thresholds define high-quality office environments according to the IEQ standards mentioned in Section 5.1?",
+        "query_en": "comfort indexes thresholds high-quality environments TCindex VCindex ACindex",
+        "expected_chunk_ids": [
+          "chunk_027"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_029",
+          "chunk_030",
+          "chunk_015",
+          "chunk_027",
+          "chunk_026"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.4368,
+            "fts_rank": 3.5,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_030",
+            "page_number": 15,
+            "similarity": 0.4512,
+            "fts_rank": 1.7,
+            "rrf_score": 0.031778
+          },
+          {
+            "chunk_id": "chunk_015",
+            "page_number": 6,
+            "similarity": 0.4303,
+            "fts_rank": 2.6,
+            "rrf_score": 0.031746
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.3919,
+            "fts_rank": 2.4,
+            "rrf_score": 0.03101
+          },
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.3664,
+            "fts_rank": 2.8,
+            "rrf_score": 0.030835
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 0,
+        "hit@5": 1,
+        "mrr": 0.25,
+        "first_target_rank": 4,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q04",
+        "type": "text",
+        "language": "id",
+        "question": "Mengapa masalah penataan tata letak furnitur dalam penelitian ini diformulasikan sebagai Multi-Objective Markov Decision Process (MOMDP) dan bukan single-objective MDP?",
+        "query_en": "Multi-Objective Markov Decision Process MOMDP conflicting objectives trade-off",
+        "expected_chunk_ids": [
+          "chunk_000",
+          "chunk_009",
+          "chunk_010"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_008",
+          "chunk_009",
+          "chunk_010",
+          "chunk_020",
+          "chunk_034"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_008",
+            "page_number": 3,
+            "similarity": 0.5795,
+            "fts_rank": 2.2,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_009",
+            "page_number": 4,
+            "similarity": 0.5616,
+            "fts_rank": 1.5,
+            "rrf_score": 0.031514
+          },
+          {
+            "chunk_id": "chunk_010",
+            "page_number": 4,
+            "similarity": 0.5536,
+            "fts_rank": 1.1,
+            "rrf_score": 0.030303
+          },
+          {
+            "chunk_id": "chunk_020",
+            "page_number": 8,
+            "similarity": 0.6038,
+            "fts_rank": 0.5,
+            "rrf_score": 0.029907
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.5639,
+            "fts_rank": 0.7,
+            "rrf_score": 0.02971
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.5,
+        "first_target_rank": 2,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q05",
+        "type": "text",
+        "language": "en",
+        "question": "In the discretization of the office rooms for reinforcement learning, what is the size of each grid cell and what furniture items are arranged?",
+        "query_en": "discretization grid cell size 0.5m desk office chair",
+        "expected_chunk_ids": [
+          "chunk_024"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_024",
+          "chunk_027",
+          "chunk_028",
+          "chunk_022",
+          "chunk_021"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_024",
+            "page_number": 9,
+            "similarity": 0.4893,
+            "fts_rank": 2,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.3764,
+            "fts_rank": 2,
+            "rrf_score": 0.030886
+          },
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.3792,
+            "fts_rank": 2,
+            "rrf_score": 0.030835
+          },
+          {
+            "chunk_id": "chunk_022",
+            "page_number": 8,
+            "similarity": 0.4894,
+            "fts_rank": 1,
+            "rrf_score": 0.030679
+          },
+          {
+            "chunk_id": "chunk_021",
+            "page_number": 8,
+            "similarity": 0.4029,
+            "fts_rank": 1.1,
+            "rrf_score": 0.03031
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q06",
+        "type": "table",
+        "language": "id",
+        "question": "Berdasarkan Table 1, berapa nilai Mean, Max, Min, dan DevStand dari total reward untuk Office #1 dan Office #2?",
+        "query_en": "Table 1 Data synthesis of test results Mean Max Min DevStand Office 1 Office 2",
+        "expected_chunk_ids": [
+          "chunk_025"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_028",
+          "chunk_025",
+          "chunk_035",
+          "chunk_029",
+          "chunk_030"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.3474,
+            "fts_rank": 5.4,
+            "rrf_score": 0.031099
+          },
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.3613,
+            "fts_rank": 4.8,
+            "rrf_score": 0.031025
+          },
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.3692,
+            "fts_rank": 3.6,
+            "rrf_score": 0.030777
+          },
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.365,
+            "fts_rank": 4.6,
+            "rrf_score": 0.030769
+          },
+          {
+            "chunk_id": "chunk_030",
+            "page_number": 15,
+            "similarity": 0.3811,
+            "fts_rank": 2.5,
+            "rrf_score": 0.030622
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.5,
+        "first_target_rank": 2,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q07",
+        "type": "table",
+        "language": "en",
+        "question": "According to Table 2, what are the desk locations and orientations of User #1 and User #2 in Office #1 Layout Pattern #1?",
+        "query_en": "Table 2 Office 1 layout pattern 1 features desk location User 1 User 2",
+        "expected_chunk_ids": [
+          "chunk_026"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_026",
+          "chunk_028",
+          "chunk_027",
+          "chunk_025",
+          "chunk_022"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.5245,
+            "fts_rank": 8,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.5118,
+            "fts_rank": 6.8,
+            "rrf_score": 0.031498
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.4965,
+            "fts_rank": 8.3,
+            "rrf_score": 0.031319
+          },
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.5017,
+            "fts_rank": 5.4,
+            "rrf_score": 0.030777
+          },
+          {
+            "chunk_id": "chunk_022",
+            "page_number": 8,
+            "similarity": 0.5507,
+            "fts_rank": 2.1,
+            "rrf_score": 0.030679
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q08",
+        "type": "table",
+        "language": "id",
+        "question": "Pada Table 3 (Office #1 Layout Pattern #2), berapa nilai Acoustic, Thermal, dan Visual comfort index untuk User #1 dan User #2, serta berapa jarak antar pengguna (users distance)?",
+        "query_en": "Table 3 Office 1 layout pattern 2 features Acoustic Thermal Visual comfort index Users distance",
+        "expected_chunk_ids": [
+          "chunk_026"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_026",
+          "chunk_027",
+          "chunk_028",
+          "chunk_029",
+          "chunk_030"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.6878,
+            "fts_rank": 11.1,
+            "rrf_score": 0.032787
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.6832,
+            "fts_rank": 10.9,
+            "rrf_score": 0.032258
+          },
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.65,
+            "fts_rank": 9,
+            "rrf_score": 0.031746
+          },
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.6371,
+            "fts_rank": 8.7,
+            "rrf_score": 0.03125
+          },
+          {
+            "chunk_id": "chunk_030",
+            "page_number": 15,
+            "similarity": 0.6322,
+            "fts_rank": 3.9,
+            "rrf_score": 0.030536
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q09",
+        "type": "table",
+        "language": "en",
+        "question": "According to Table 4, what are the visual comfort index and door distance for User #1 and User #2 in Office #2 Layout Pattern #1?",
+        "query_en": "Table 4 Office 2 layout pattern 1 features Visual comfort index Door distance",
+        "expected_chunk_ids": [
+          "chunk_027"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_026",
+          "chunk_027",
+          "chunk_028",
+          "chunk_030",
+          "chunk_025"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.6387,
+            "fts_rank": 9.8,
+            "rrf_score": 0.032787
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.616,
+            "fts_rank": 9.6,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.6215,
+            "fts_rank": 7.5,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_030",
+            "page_number": 15,
+            "similarity": 0.594,
+            "fts_rank": 3.3,
+            "rrf_score": 0.030536
+          },
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.5833,
+            "fts_rank": 6.1,
+            "rrf_score": 0.030536
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.5,
+        "first_target_rank": 2,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q10",
+        "type": "table",
+        "language": "id",
+        "question": "Berdasarkan Table 5 (Office #2 Layout Pattern #2), berapakah nilai Thermal comfort index untuk User #1 dan User #2, serta apa orientasi meja kedua pengguna tersebut?",
+        "query_en": "Table 5 Office 2 layout pattern 2 features Thermal comfort index desk location orientation",
+        "expected_chunk_ids": [
+          "chunk_027"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_027",
+          "chunk_026",
+          "chunk_028",
+          "chunk_029",
+          "chunk_025"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.6881,
+            "fts_rank": 8.8,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.7272,
+            "fts_rank": 8.8,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.6876,
+            "fts_rank": 7,
+            "rrf_score": 0.031746
+          },
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.6142,
+            "fts_rank": 5.7,
+            "rrf_score": 0.030777
+          },
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.6039,
+            "fts_rank": 5.3,
+            "rrf_score": 0.03031
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q11",
+        "type": "figure",
+        "language": "en",
+        "question": "According to the printed values in Fig. 19 comparing execution times between NSGA-II and MORL, what were the execution times for Test 1, Test 3, and Test 5?",
+        "query_en": "Fig. 19 Execution times NSGA-II MORL Test 1 Test 3 Test 5",
+        "expected_chunk_ids": [
+          "chunk_038"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_038",
+          "chunk_037",
+          "chunk_035",
+          "chunk_036",
+          "chunk_034"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_038",
+            "page_number": 21,
+            "similarity": 0.6885,
+            "fts_rank": 9.1,
+            "rrf_score": 0.032787
+          },
+          {
+            "chunk_id": "chunk_037",
+            "page_number": 19,
+            "similarity": 0.6417,
+            "fts_rank": 4.7,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.5814,
+            "fts_rank": 7.3,
+            "rrf_score": 0.031514
+          },
+          {
+            "chunk_id": "chunk_036",
+            "page_number": 19,
+            "similarity": 0.5815,
+            "fts_rank": 3.9,
+            "rrf_score": 0.03101
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.5217,
+            "fts_rank": 4,
+            "rrf_score": 0.03055
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q12",
+        "type": "figure",
+        "language": "id",
+        "question": "Berdasarkan data Fig. 16 (Execution times perbandingan algoritma RL), berapakah waktu eksekusi MORL, PPO, DQN, dan A2C pada Test 1 dan Test 5?",
+        "query_en": "Fig. 16 Execution times RL comparison A2C PPO DQN MORL Test 1 Test 5",
+        "expected_chunk_ids": [
+          "chunk_035"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_035",
+          "chunk_034",
+          "chunk_033",
+          "chunk_036",
+          "chunk_038"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.6124,
+            "fts_rank": 11.8,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.6432,
+            "fts_rank": 5.9,
+            "rrf_score": 0.032266
+          },
+          {
+            "chunk_id": "chunk_033",
+            "page_number": 17,
+            "similarity": 0.5331,
+            "fts_rank": 4.5,
+            "rrf_score": 0.031498
+          },
+          {
+            "chunk_id": "chunk_036",
+            "page_number": 19,
+            "similarity": 0.521,
+            "fts_rank": 4,
+            "rrf_score": 0.03101
+          },
+          {
+            "chunk_id": "chunk_038",
+            "page_number": 21,
+            "similarity": 0.4355,
+            "fts_rank": 6.9,
+            "rrf_score": 0.030835
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q13",
+        "type": "figure",
+        "language": "en",
+        "question": "Based on Fig. 15 comparing the standard deviation of total IEQ among RL methods, which algorithm achieved the lowest standard deviation in Test 1 and what was its value?",
+        "query_en": "Fig. 15 Standard deviation IEQ_Tot RL methods A2C PPO DQN MORL Test 1",
+        "expected_chunk_ids": [
+          "chunk_034",
+          "chunk_035"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_035",
+          "chunk_034",
+          "chunk_036",
+          "chunk_033",
+          "chunk_038"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.6323,
+            "fts_rank": 10.1,
+            "rrf_score": 0.032522
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.6521,
+            "fts_rank": 5.5,
+            "rrf_score": 0.032266
+          },
+          {
+            "chunk_id": "chunk_036",
+            "page_number": 19,
+            "similarity": 0.566,
+            "fts_rank": 3.3,
+            "rrf_score": 0.03101
+          },
+          {
+            "chunk_id": "chunk_033",
+            "page_number": 17,
+            "similarity": 0.5641,
+            "fts_rank": 4.2,
+            "rrf_score": 0.03101
+          },
+          {
+            "chunk_id": "chunk_038",
+            "page_number": 21,
+            "similarity": 0.4835,
+            "fts_rank": 5.6,
+            "rrf_score": 0.030622
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q14",
+        "type": "formula",
+        "language": "id",
+        "question": "Bagaimana perumusan Bellman Equation standar untuk pembaruan nilai Q pada Q-learning (Persamaan 1 di paper)?",
+        "query_en": "Bellman Equation standard Q-learning update rule alpha gamma",
+        "expected_chunk_ids": [
+          "chunk_008"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_008",
+          "chunk_017",
+          "chunk_009",
+          "chunk_034",
+          "chunk_019"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_008",
+            "page_number": 3,
+            "similarity": 0.4589,
+            "fts_rank": 0.8,
+            "rrf_score": 0.031754
+          },
+          {
+            "chunk_id": "chunk_017",
+            "page_number": 7,
+            "similarity": 0.4337,
+            "fts_rank": 0.9,
+            "rrf_score": 0.030886
+          },
+          {
+            "chunk_id": "chunk_009",
+            "page_number": 4,
+            "similarity": 0.4493,
+            "fts_rank": 0.6,
+            "rrf_score": 0.030777
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.457,
+            "fts_rank": 0.4,
+            "rrf_score": 0.030536
+          },
+          {
+            "chunk_id": "chunk_019",
+            "page_number": 7,
+            "similarity": 0.4152,
+            "fts_rank": 0.7,
+            "rrf_score": 0.029762
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q15",
+        "type": "formula",
+        "language": "en",
+        "question": "How is the environmental comfort reward R_IEQ formulated in Eq. (16) as a weighted sum of the indoor comfort sub-indexes?",
+        "query_en": "R_IEQ reward function weighted sum TC_index AC_index VC_index p_TC p_AC p_VC",
+        "expected_chunk_ids": [
+          "chunk_015",
+          "chunk_016"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_015",
+          "chunk_016",
+          "chunk_014",
+          "chunk_009",
+          "chunk_034"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_015",
+            "page_number": 6,
+            "similarity": 0.5705,
+            "fts_rank": 3.2,
+            "rrf_score": 0.032787
+          },
+          {
+            "chunk_id": "chunk_016",
+            "page_number": 6,
+            "similarity": 0.4927,
+            "fts_rank": 0.8,
+            "rrf_score": 0.031754
+          },
+          {
+            "chunk_id": "chunk_014",
+            "page_number": 5,
+            "similarity": 0.4663,
+            "fts_rank": 1.5,
+            "rrf_score": 0.031514
+          },
+          {
+            "chunk_id": "chunk_009",
+            "page_number": 4,
+            "similarity": 0.4609,
+            "fts_rank": 0.9,
+            "rrf_score": 0.030366
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.4769,
+            "fts_rank": 0.3,
+            "rrf_score": 0.029206
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q16",
+        "type": "formula",
+        "language": "id",
+        "question": "Bagaimana rumus normalisasi jarak (Eq. 23) yang digunakan untuk R_door dan R_dist-users agar skalanya setara dengan metrik kenyamanan lainnya?",
+        "query_en": "distance normalization equation R_door R_dist-users min_dist max_dist",
+        "expected_chunk_ids": [
+          "chunk_016"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_016",
+          "chunk_014",
+          "chunk_024",
+          "chunk_027",
+          "chunk_026"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_016",
+            "page_number": 6,
+            "similarity": 0.4917,
+            "fts_rank": 1.6,
+            "rrf_score": 0.032787
+          },
+          {
+            "chunk_id": "chunk_014",
+            "page_number": 5,
+            "similarity": 0.4285,
+            "fts_rank": 1,
+            "rrf_score": 0.032002
+          },
+          {
+            "chunk_id": "chunk_024",
+            "page_number": 9,
+            "similarity": 0.3867,
+            "fts_rank": 0.2,
+            "rrf_score": 0.030077
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.3558,
+            "fts_rank": 0.4,
+            "rrf_score": 0.02971
+          },
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.3357,
+            "fts_rank": 0.4,
+            "rrf_score": 0.02886
+          }
+        ],
+        "hit@1": 1,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 1.0,
+        "first_target_rank": 1,
+        "recall@5": 1.0,
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q17",
+        "type": "out_of_domain",
+        "language": "id",
+        "question": "Bagaimana resep dan langkah-langkah memasak rendang daging sapi khas Minangkabau?",
+        "query_en": "recipe steps cooking beef rendang Minangkabau cuisine",
+        "expected_chunk_ids": [],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_024",
+          "chunk_011",
+          "chunk_034",
+          "chunk_018",
+          "chunk_032"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_024",
+            "page_number": 9,
+            "similarity": 0.2404,
+            "fts_rank": 0.1,
+            "rrf_score": 0.030798
+          },
+          {
+            "chunk_id": "chunk_011",
+            "page_number": 4,
+            "similarity": 0.2011,
+            "fts_rank": 0.1,
+            "rrf_score": 0.029324
+          },
+          {
+            "chunk_id": "chunk_034",
+            "page_number": 17,
+            "similarity": 0.1578,
+            "fts_rank": 0.4,
+            "rrf_score": 0.028298
+          },
+          {
+            "chunk_id": "chunk_018",
+            "page_number": 7,
+            "similarity": 0.1582,
+            "fts_rank": 0.1,
+            "rrf_score": 0.027433
+          },
+          {
+            "chunk_id": "chunk_032",
+            "page_number": 16,
+            "similarity": 0.1449,
+            "fts_rank": 0.1,
+            "rrf_score": 0.026779
+          }
+        ],
+        "hit@1": null,
+        "hit@3": null,
+        "hit@5": null,
+        "mrr": null,
+        "first_target_rank": null,
+        "recall@5": null,
+        "is_no_relevant": false
+      },
+      {
+        "id": "Q18",
+        "type": "out_of_domain_near",
+        "language": "id",
+        "question": "Berapa konsumsi listrik (kWh) sistem AC pada Office #1?",
+        "query_en": "air conditioning electricity power consumption kWh Office 1",
+        "expected_chunk_ids": [],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_028",
+          "chunk_029",
+          "chunk_021",
+          "chunk_027",
+          "chunk_022"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.409,
+            "fts_rank": 3.2,
+            "rrf_score": 0.031545
+          },
+          {
+            "chunk_id": "chunk_029",
+            "page_number": 13,
+            "similarity": 0.4187,
+            "fts_rank": 2.5,
+            "rrf_score": 0.031258
+          },
+          {
+            "chunk_id": "chunk_021",
+            "page_number": 8,
+            "similarity": 0.4275,
+            "fts_rank": 1.9,
+            "rrf_score": 0.031025
+          },
+          {
+            "chunk_id": "chunk_027",
+            "page_number": 12,
+            "similarity": 0.3821,
+            "fts_rank": 2.8,
+            "rrf_score": 0.030835
+          },
+          {
+            "chunk_id": "chunk_022",
+            "page_number": 8,
+            "similarity": 0.4811,
+            "fts_rank": 1.2,
+            "rrf_score": 0.030679
+          }
+        ],
+        "hit@1": null,
+        "hit@3": null,
+        "hit@5": null,
+        "mrr": null,
+        "first_target_rank": null,
+        "recall@5": null,
+        "is_no_relevant": false
+      },
+      {
+        "id": "Q19",
+        "type": "cross_section",
+        "language": "id",
+        "question": "Bagaimana perbedaan karakteristik fisik Office #1 dan Office #2 (Section 5) dan bagaimana kaitannya dengan hasil total reward kedua kantor pada Table 1 (Section 5.1)?",
+        "query_en": "Office 1 Office 2 physical characteristics dimensions windows Table 1 total reward synthesis",
+        "expected_chunk_ids": [
+          "chunk_021",
+          "chunk_022",
+          "chunk_023",
+          "chunk_025"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_028",
+          "chunk_022",
+          "chunk_023",
+          "chunk_021",
+          "chunk_025"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_028",
+            "page_number": 12,
+            "similarity": 0.4065,
+            "fts_rank": 4.9,
+            "rrf_score": 0.032018
+          },
+          {
+            "chunk_id": "chunk_022",
+            "page_number": 8,
+            "similarity": 0.4714,
+            "fts_rank": 2.1,
+            "rrf_score": 0.031099
+          },
+          {
+            "chunk_id": "chunk_023",
+            "page_number": 9,
+            "similarity": 0.4277,
+            "fts_rank": 1.9,
+            "rrf_score": 0.030159
+          },
+          {
+            "chunk_id": "chunk_021",
+            "page_number": 8,
+            "similarity": 0.3826,
+            "fts_rank": 2.7,
+            "rrf_score": 0.029857
+          },
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.3646,
+            "fts_rank": 3.6,
+            "rrf_score": 0.02971
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.5,
+        "first_target_rank": 2,
+        "recall@5": 1.0,
+        "found_expected_in_top5": [
+          "chunk_021",
+          "chunk_022",
+          "chunk_023",
+          "chunk_025"
+        ],
+        "is_false_no_relevant": false
+      },
+      {
+        "id": "Q20",
+        "type": "cross_section",
+        "language": "en",
+        "question": "How does the formulation of the multi-objective reward in Section 4.3 explain the trade-off observed between Layout Pattern #1 and Layout Pattern #2 for Office #1 in Tables 2 and 3?",
+        "query_en": "multi-objective reward trade-off Layout Pattern 1 2 Office 1 Table 2 Table 3 users distance",
+        "expected_chunk_ids": [
+          "chunk_014",
+          "chunk_026"
+        ],
+        "status": "success",
+        "retrieved_chunk_ids": [
+          "chunk_025",
+          "chunk_011",
+          "chunk_014",
+          "chunk_035",
+          "chunk_026"
+        ],
+        "retrieved_results": [
+          {
+            "chunk_id": "chunk_025",
+            "page_number": 9,
+            "similarity": 0.5812,
+            "fts_rank": 5.9,
+            "rrf_score": 0.031754
+          },
+          {
+            "chunk_id": "chunk_011",
+            "page_number": 4,
+            "similarity": 0.5943,
+            "fts_rank": 2.8,
+            "rrf_score": 0.031099
+          },
+          {
+            "chunk_id": "chunk_014",
+            "page_number": 5,
+            "similarity": 0.581,
+            "fts_rank": 4,
+            "rrf_score": 0.031025
+          },
+          {
+            "chunk_id": "chunk_035",
+            "page_number": 18,
+            "similarity": 0.5738,
+            "fts_rank": 2.3,
+            "rrf_score": 0.029469
+          },
+          {
+            "chunk_id": "chunk_026",
+            "page_number": 10,
+            "similarity": 0.5109,
+            "fts_rank": 7.6,
+            "rrf_score": 0.029287
+          }
+        ],
+        "hit@1": 0,
+        "hit@3": 1,
+        "hit@5": 1,
+        "mrr": 0.3333,
+        "first_target_rank": 3,
+        "recall@5": 1.0,
+        "found_expected_in_top5": [
+          "chunk_014",
+          "chunk_026"
+        ],
+        "is_false_no_relevant": false
+      }
+    ]
+  },
+  "mode2_agent_chat": {
+    "selected_questions_count": 10,
+    "items": [
+      {
+        "id": "Q01",
+        "type": "text",
+        "language": "en",
+        "question": "What are the three indoor comfort sub-indexes that compose the overall IEQ index in this paper?",
+        "expected_answer": "The overall IEQ index is evaluated as the weighted sum of three indoor comfort sub-indexes (each on a 0–100% scale): thermal comfort index (TC_index), acoustic comfort index (AC_index), and visual comfort index (VC_index).",
+        "expected_chunk_ids": [
+          "chunk_015"
+        ],
+        "elapsed_seconds": 13.82,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "overall IEQ index indoor comfort sub-indexes thermal visual acoustic comfort",
+              "top_k": 5
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search documents"
+              ],
+              "limit": 5
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "overall IEQ index indoor comfort sub-indexes thermal visual acoustic comfort",
+        "citations": [],
+        "full_response": "The three sub-indexes are thermal comfort (TC_index), acoustic comfort (AC_index), and visual comfort (VC_index). The paper combines them as a weighted sum to form the overall IEQ index. [p. 6, Section 4.3 “Reward function”]"
+      },
+      {
+        "id": "Q02",
+        "type": "text",
+        "language": "id",
+        "question": "Berapa jumlah pengujian (tests) dan jumlah episode per pengujian yang dieksekusi untuk setiap kantor pada evaluasi eksperimental?",
+        "expected_answer": "Pada evaluasi eksperimental, dieksekusi 20 pengujian (tests) untuk setiap kantor yang diteliti, di mana setiap pengujian menjalankan 40.000 episode.",
+        "expected_chunk_ids": [
+          "chunk_025"
+        ],
+        "elapsed_seconds": 14.64,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "experimental evaluation number of tests episodes per test Office 1 Office 2",
+              "top_k": 5,
+              "content_type": "table"
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search_documents paper evaluation experimental tests episodes offices"
+              ],
+              "limit": 5
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "experimental evaluation number of tests episodes per test Office 1 Office 2",
+        "citations": [
+          "[Hal. 9–10, Section 5.1 Results and discussions]"
+        ],
+        "full_response": "Untuk setiap kantor (Office #1 dan Office #2), dijalankan 20 pengujian, dengan 40.000 episode pada setiap pengujian. [Hal. 9–10, Section 5.1 Results and discussions]"
+      },
+      {
+        "id": "Q06",
+        "type": "table",
+        "language": "id",
+        "question": "Berdasarkan Table 1, berapa nilai Mean, Max, Min, dan DevStand dari total reward untuk Office #1 dan Office #2?",
+        "expected_answer": "Berdasarkan Table 1: Office #1: Mean = 558.80, Max = 561.46, Min = 553.66, DevStand = 1.63. Office #2: Mean = 561.27, Max = 563.21, Min = 558.92, DevStand = 1.20.",
+        "expected_chunk_ids": [
+          "chunk_025"
+        ],
+        "elapsed_seconds": 15.72,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Table 1 total reward Mean Max Min DevStand Office #1 Office #2",
+              "content_type": "table",
+              "top_k": 5
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search_documents"
+              ],
+              "limit": 5
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Table 1 total reward Mean Max Min DevStand Office #1 Office #2",
+        "citations": [],
+        "full_response": "Menurut Table 1:\n\n| Statistik | Office #1 | Office #2 |\n|---|---:|---:|\n| Mean | 558.80 | 561.27 |\n| Max | 561.46 | 563.21 |\n| Min | 553.66 | 558.92 |\n| DevStand | 1.63 | 1.20 |\n\n[Sumber: hlm. 9–10, Bagian 5.1 “Results and discussions”]"
+      },
+      {
+        "id": "Q07",
+        "type": "table",
+        "language": "en",
+        "question": "According to Table 2, what are the desk locations and orientations of User #1 and User #2 in Office #1 Layout Pattern #1?",
+        "expected_answer": "In Table 2 (Office #1 Layout Pattern #1): User #1 desk location is coordinate (2, 2) with Horizontal-up orientation. User #2 desk location is coordinate (5, 2) with Horizontal-down orientation.",
+        "expected_chunk_ids": [
+          "chunk_026"
+        ],
+        "elapsed_seconds": 17.14,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Table 2 Office #1 Layout Pattern #1 User #1 User #2 desk location orientation",
+              "content_type": "table",
+              "top_k": 5
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Table 2 Office #1 Layout Pattern #1 User #1 User #2 desk location orientation",
+        "citations": [
+          "[Hal. 10–11, Section 5.1 “Results and discussions”]"
+        ],
+        "full_response": "Table 2 lists the desk locations and orientations as: User #1 at (2, 2), Horizontal-up; User #2 at (5, 2), Horizontal-down. [Hal. 10–11, Section 5.1 “Results and discussions”]"
+      },
+      {
+        "id": "Q11",
+        "type": "figure",
+        "language": "en",
+        "question": "According to the printed values in Fig. 19 comparing execution times between NSGA-II and MORL, what were the execution times for Test 1, Test 3, and Test 5?",
+        "expected_answer": "From Fig. 19 / comparative table in Section 6.2: Test 1: NSGA-II = 4.40 s, MORL = 4.00 s. Test 3: NSGA-II = 12.61 s, MORL = 11.58 s. Test 5: NSGA-II = 20.52 s, MORL = 19.39 s. MORL was slightly faster in all tests.",
+        "expected_chunk_ids": [
+          "chunk_038"
+        ],
+        "elapsed_seconds": 12.06,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Figure 19 printed execution times Test 1 Test 3 Test 5 NSGA-II MORL",
+              "top_k": 5,
+              "content_type": "figure"
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search_documents"
+              ],
+              "limit": 3
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Figure 19 printed execution times Test 1 Test 3 Test 5 NSGA-II MORL",
+        "citations": [
+          "[Pages 20–21, Section 6.2, “Comparison with NSGA-II”]"
+        ],
+        "full_response": "Fig. 19 reports these execution times:\n\nTest 1: NSGA-II 4.40 s; MORL 4.00 s.\nTest 3: NSGA-II 12.61 s; MORL 11.58 s.\nTest 5: NSGA-II 20.52 s; MORL 19.39 s.\n\n[Pages 20–21, Section 6.2, “Comparison with NSGA-II”]"
+      },
+      {
+        "id": "Q12",
+        "type": "figure",
+        "language": "id",
+        "question": "Berdasarkan data Fig. 16 (Execution times perbandingan algoritma RL), berapakah waktu eksekusi MORL, PPO, DQN, dan A2C pada Test 1 dan Test 5?",
+        "expected_answer": "Berdasarkan Fig. 16 / tabel perbandingan waktu eksekusi metode RL (Section 6.1): Test 1: MORL = 4.00 s, PPO = 8.10 s, DQN = 9.22 s, A2C = 9.71 s. Test 5: MORL = 19.39 s, PPO = 18.20 s, DQN = 28.93 s, A2C = 28.54 s.",
+        "expected_chunk_ids": [
+          "chunk_035"
+        ],
+        "elapsed_seconds": 18.54,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Fig. 16 execution times MORL PPO DQN A2C Test 1 Test 5",
+              "top_k": 5,
+              "content_type": "figure"
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search_documents"
+              ],
+              "limit": 5
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Fig. 16 execution times MORL PPO DQN A2C Test 1 Test 5",
+        "citations": [],
+        "full_response": "Waktu eksekusi pada Fig. 16 (detik):\n\nTest 1: MORL 4,00; PPO 8,10; DQN 9,22; A2C 9,71.\nTest 5: MORL 19,39; PPO 18,20; DQN 28,93; A2C 28,54.\n\n[Sumber: Hal. 18–19, Section 6.1 “Comparison with RL methods”.]"
+      },
+      {
+        "id": "Q14",
+        "type": "formula",
+        "language": "id",
+        "question": "Bagaimana perumusan Bellman Equation standar untuk pembaruan nilai Q pada Q-learning (Persamaan 1 di paper)?",
+        "expected_answer": "Persamaan (1) Bellman Equation untuk pembaruan Q-learning adalah: Q(s, a) <- (1 - alpha) * Q(s, a) + alpha * [R + gamma * max_a' Q(s', a')], di mana s adalah state, a adalah action, alpha adalah learning rate, R adalah immediate reward, gamma adalah discount factor, dan s' adalah next state.",
+        "expected_chunk_ids": [
+          "chunk_008"
+        ],
+        "elapsed_seconds": 12.91,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Bellman Equation Q-learning standard update equation Equation 1",
+              "content_type": "formula",
+              "top_k": 5
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search_documents"
+              ],
+              "limit": 5
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Bellman Equation Q-learning standard update equation Equation 1",
+        "citations": [
+          "[Hal. 3–4, Section 3.2: Reinforcement learning and multi-objective RL]"
+        ],
+        "full_response": "Persamaan (1) merumuskan pembaruan nilai Q pada Q-learning sebagai:\n\nQ(s, a) ← (1 − α)Q(s, a) + α[R + γ · maxₐ′ Q(s′, a′)]\n\nDi sini, R adalah reward yang diterima saat berpindah dari state s ke s′; α adalah learning rate yang menentukan seberapa besar informasi baru memperbarui nilai lama; dan γ adalah discount factor yang menentukan bobot reward masa depan. [Hal. 3–4, Section 3.2: Reinforcement learning and multi-objective RL]"
+      },
+      {
+        "id": "Q17",
+        "type": "out_of_domain",
+        "language": "id",
+        "question": "Bagaimana resep dan langkah-langkah memasak rendang daging sapi khas Minangkabau?",
+        "expected_answer": "Pertanyaan ini di luar cakupan sistem dan informasinya tidak terdapat di dalam dokumen paper penelitian.",
+        "expected_chunk_ids": [],
+        "elapsed_seconds": 4.02,
+        "tools_called": [],
+        "meta_tools": [],
+        "query_argument": null,
+        "citations": [],
+        "full_response": "Pertanyaan ini di luar cakupan sistem dan tidak ada di dokumen."
+      },
+      {
+        "id": "Q18",
+        "type": "out_of_domain_near",
+        "language": "id",
+        "question": "Berapa konsumsi listrik (kWh) sistem AC pada Office #1?",
+        "expected_answer": "Pertanyaan ini di luar cakupan dokumen. Paper menyebutkan AC pada Office #1 menghasilkan kebisingan 55 dB dan setpoint suhu 23 °C, tetapi tidak mencantumkan data konsumsi listrik (kWh).",
+        "expected_chunk_ids": [],
+        "elapsed_seconds": 16.73,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "content_type": "table",
+              "query": "Office #1 air conditioning system electricity consumption kWh",
+              "top_k": 5
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "air conditioning electricity energy consumption kWh Office 1",
+              "top_k": 8
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search documents paper retrieval"
+              ],
+              "limit": 3
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Office #1 air conditioning system electricity consumption kWh",
+        "citations": [
+          "[Hal. 8, Section 5 Experimental evaluation]"
+        ],
+        "full_response": "Dokumen tidak mencantumkan konsumsi listrik AC Office #1 dalam kWh. Dokumen hanya menyebut AC di bawah jendela menghasilkan kebisingan 55 dB dan suhu setelan 23 °C [Hal. 8, Section 5 Experimental evaluation]."
+      },
+      {
+        "id": "Q19",
+        "type": "cross_section",
+        "language": "id",
+        "question": "Bagaimana perbedaan karakteristik fisik Office #1 dan Office #2 (Section 5) dan bagaimana kaitannya dengan hasil total reward kedua kantor pada Table 1 (Section 5.1)?",
+        "expected_answer": "Office #1 berukuran 4.5 × 3.5 × 2.8 m dengan satu jendela besar menghadap barat-laut dan satu pintu. Office #2 berukuran 5.5 × 4.8 × 2.8 m dengan dua jendela (barat-laut dan utara) dan dua unit pendingin. Pada Table 1, Office #2 memiliki rata-rata total reward lebih tinggi (Mean 561.27 vs 558.80) dan deviasi standar lebih rendah (DevStand 1.20 vs 1.63) dibandingkan Office #1; paper mencatat performa Office #2 lebih baik tanpa menjelaskan penyebab fisik/geometrinya.",
+        "expected_chunk_ids": [
+          "chunk_021",
+          "chunk_022",
+          "chunk_023",
+          "chunk_025"
+        ],
+        "elapsed_seconds": 180.1,
+        "tools_called": [
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Office #1 Office #2 physical characteristics dimensions occupants Section 5",
+              "top_k": 5
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Table 1 total reward Office #1 Office #2",
+              "top_k": 5,
+              "content_type": "table"
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "Office #1 Office #2 physical characteristics dimensions occupants Section 5",
+              "top_k": 5
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "content_type": "table",
+              "query": "Table 1 total reward Office #1 Office #2 reward values",
+              "top_k": 5
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "query": "OFFICE #2 dimensions windows door air conditioning acoustic illuminance physical characteristics",
+              "top_k": 4
+            }
+          },
+          {
+            "tool": "mcp__DSS_Adaptive_Building__search_documents",
+            "arguments": {
+              "content_type": "table",
+              "query": "Table 1 total reward Office #1 Office #2 reward values",
+              "top_k": 5
+            }
+          }
+        ],
+        "meta_tools": [
+          {
+            "meta_tool": "tool_search",
+            "arguments": {
+              "queries": [
+                "DSS Adaptive Building search documents"
+              ],
+              "limit": 4
+            }
+          },
+          {
+            "meta_tool": "tool_describe",
+            "arguments": {
+              "names": [
+                "mcp__DSS_Adaptive_Building__search_documents"
+              ]
+            }
+          }
+        ],
+        "query_argument": "Office #1 Office #2 physical characteristics dimensions occupants Section 5",
+        "citations": [],
+        "full_response": "ERROR: timed out"
+      }
+    ]
+  }
+}

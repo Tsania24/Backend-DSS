@@ -1,0 +1,427 @@
+[
+  {
+    "id": "Q01",
+    "type": "text",
+    "language": "en",
+    "question": "What are the three indoor comfort sub-indexes that compose the overall IEQ index in this paper?",
+    "query_en": "IEQ three indoor comfort sub-indexes thermal acoustic visual",
+    "expected_answer": "The overall IEQ index is evaluated as the weighted sum of three indoor comfort sub-indexes (each on a 0–100% scale): thermal comfort index (TC_index), acoustic comfort index (AC_index), and visual comfort index (VC_index).",
+    "expected_chunk_ids": [
+      "chunk_015"
+    ],
+    "source_pages": [
+      6
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q02",
+    "type": "text",
+    "language": "id",
+    "question": "Berapa jumlah pengujian (tests) dan jumlah episode per pengujian yang dieksekusi untuk setiap kantor pada evaluasi eksperimental?",
+    "query_en": "number of tests episodes experimental evaluation 20 tests 40000 episodes",
+    "expected_answer": "Pada evaluasi eksperimental, dieksekusi 20 pengujian (tests) untuk setiap kantor yang diteliti, di mana setiap pengujian menjalankan 40.000 episode.",
+    "expected_chunk_ids": [
+      "chunk_025"
+    ],
+    "source_pages": [
+      9,
+      10
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q03",
+    "type": "text",
+    "language": "en",
+    "question": "What environmental comfort thresholds define high-quality office environments according to the IEQ standards mentioned in Section 5.1?",
+    "query_en": "comfort indexes thresholds high-quality environments TCindex VCindex ACindex",
+    "expected_answer": "According to the IEQ standards mentioned in the paper, the comfort index thresholds that define high-quality environments for office end-use are: TCindex > 90 for thermal comfort, VCindex > 97 for visual comfort, and ACindex > 95 for acoustic comfort.",
+    "expected_chunk_ids": [
+      "chunk_026",
+      "chunk_027"
+    ],
+    "source_pages": [
+      11,
+      12
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q04",
+    "type": "text",
+    "language": "id",
+    "question": "Mengapa masalah penataan tata letak furnitur dalam penelitian ini diformulasikan sebagai Multi-Objective Markov Decision Process (MOMDP) dan bukan single-objective MDP?",
+    "query_en": "Multi-Objective Markov Decision Process MOMDP conflicting objectives trade-off",
+    "expected_answer": "Karena tujuan optimasi kenyamanan lingkungan dalam ruangan (termal, visual, akustik) dan kendala fungsional (seperti jarak antar pengguna dan jarak ke pintu) bersifat saling bertentangan (conflicting objectives) antar penghuni, sehingga tidak ada solusi optimal tunggal melainkan sekumpulan solusi kompromi Pareto (trade-off solutions) yang menyeimbangkan kepuasan seluruh okupan.",
+    "expected_chunk_ids": [
+      "chunk_000",
+      "chunk_009",
+      "chunk_010"
+    ],
+    "source_pages": [
+      1,
+      4
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q05",
+    "type": "text",
+    "language": "en",
+    "question": "In the discretization of the office rooms for reinforcement learning, what is the size of each grid cell and what furniture items are arranged?",
+    "query_en": "discretization grid cell size 0.5m desk office chair",
+    "expected_answer": "Each room is discretized into regular square grid cells of size 0.5 m × 0.5 m (cell side length l = 0.5 m). The furniture items to be arranged for each occupant are workstations consisting of a desk (150 cm × 50 cm) and an office chair.",
+    "expected_chunk_ids": [
+      "chunk_024"
+    ],
+    "source_pages": [
+      9
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q06",
+    "type": "table",
+    "language": "id",
+    "question": "Berdasarkan Table 1, berapa nilai Mean, Max, Min, dan DevStand dari total reward untuk Office #1 dan Office #2?",
+    "query_en": "Table 1 Data synthesis of test results Mean Max Min DevStand Office 1 Office 2",
+    "expected_answer": "Berdasarkan Table 1: Office #1: Mean = 558.80, Max = 561.46, Min = 553.66, DevStand = 1.63. Office #2: Mean = 561.27, Max = 563.21, Min = 558.92, DevStand = 1.20.",
+    "expected_chunk_ids": [
+      "chunk_025"
+    ],
+    "source_pages": [
+      9,
+      10
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q07",
+    "type": "table",
+    "language": "en",
+    "question": "According to Table 2, what are the desk locations and orientations of User #1 and User #2 in Office #1 Layout Pattern #1?",
+    "query_en": "Table 2 Office 1 layout pattern 1 features desk location User 1 User 2",
+    "expected_answer": "In Table 2 (Office #1 Layout Pattern #1): User #1 desk location is coordinate (2, 2) with Horizontal-up orientation. User #2 desk location is coordinate (5, 2) with Horizontal-down orientation.",
+    "expected_chunk_ids": [
+      "chunk_026"
+    ],
+    "source_pages": [
+      10,
+      11
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q08",
+    "type": "table",
+    "language": "id",
+    "question": "Pada Table 3 (Office #1 Layout Pattern #2), berapa nilai Acoustic, Thermal, dan Visual comfort index untuk User #1 dan User #2, serta berapa jarak antar pengguna (users distance)?",
+    "query_en": "Table 3 Office 1 layout pattern 2 features Acoustic Thermal Visual comfort index Users distance",
+    "expected_answer": "Pada Table 3 (Office #1 Layout Pattern #2): User #1: Acoustic comfort index = 88.03, Thermal comfort index = 95.0, Visual comfort index = 94.92. User #2: Acoustic comfort index = 88.04, Thermal comfort index = 95.0, Visual comfort index = 95.37. Jarak antar pengguna (users distance) = 200 cm.",
+    "expected_chunk_ids": [
+      "chunk_026"
+    ],
+    "source_pages": [
+      10,
+      11
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q09",
+    "type": "table",
+    "language": "en",
+    "question": "According to Table 4, what are the visual comfort index and door distance for User #1 and User #2 in Office #2 Layout Pattern #1?",
+    "query_en": "Table 4 Office 2 layout pattern 1 features Visual comfort index Door distance",
+    "expected_answer": "In Table 4 (Office #2 Layout Pattern #1): User #1 has Visual comfort index = 98.24 and Door distance = 353 cm (desk at (5, 8), Vertical, left). User #2 has Visual comfort index = 97.66 and Door distance = 255 cm (desk at (0, 2), Horizontal, down).",
+    "expected_chunk_ids": [
+      "chunk_026",
+      "chunk_027"
+    ],
+    "source_pages": [
+      11,
+      12
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q10",
+    "type": "table",
+    "language": "id",
+    "question": "Berdasarkan Table 5 (Office #2 Layout Pattern #2), berapakah nilai Thermal comfort index untuk User #1 dan User #2, serta apa orientasi meja kedua pengguna tersebut?",
+    "query_en": "Table 5 Office 2 layout pattern 2 features Thermal comfort index desk location orientation",
+    "expected_answer": "Berdasarkan Table 5 (Office #2 Layout Pattern #2): Thermal comfort index: User #1 = 93.0, User #2 = 95.0. Orientasi meja: User #1 = Horizontal-up (koordinat (1, 2)), User #2 = Horizontal-down (koordinat (4, 7)).",
+    "expected_chunk_ids": [
+      "chunk_026",
+      "chunk_027"
+    ],
+    "source_pages": [
+      11,
+      12
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q11",
+    "type": "figure",
+    "language": "en",
+    "question": "According to the printed values in Fig. 19 comparing execution times between NSGA-II and MORL, what were the execution times for Test 1, Test 3, and Test 5?",
+    "query_en": "Fig. 19 Execution times NSGA-II MORL Test 1 Test 3 Test 5",
+    "expected_answer": "From Fig. 19 / comparative table in Section 6.2: Test 1: NSGA-II = 4.40 s, MORL = 4.00 s. Test 3: NSGA-II = 12.61 s, MORL = 11.58 s. Test 5: NSGA-II = 20.52 s, MORL = 19.39 s. MORL was slightly faster in all tests.",
+    "expected_chunk_ids": [
+      "chunk_038"
+    ],
+    "source_pages": [
+      20,
+      21
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q12",
+    "type": "figure",
+    "language": "id",
+    "question": "Berdasarkan data Fig. 16 (Execution times perbandingan algoritma RL), berapakah waktu eksekusi MORL, PPO, DQN, dan A2C pada Test 1 dan Test 5?",
+    "query_en": "Fig. 16 Execution times RL comparison A2C PPO DQN MORL Test 1 Test 5",
+    "expected_answer": "Berdasarkan Fig. 16 / tabel perbandingan waktu eksekusi metode RL (Section 6.1): Test 1: MORL = 4.00 s, PPO = 8.10 s, DQN = 9.22 s, A2C = 9.71 s. Test 5: MORL = 19.39 s, PPO = 18.20 s, DQN = 28.93 s, A2C = 28.54 s.",
+    "expected_chunk_ids": [
+      "chunk_035"
+    ],
+    "source_pages": [
+      18,
+      19
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q13",
+    "type": "figure",
+    "language": "en",
+    "question": "Based on Fig. 15 comparing the standard deviation of total IEQ among RL methods, which algorithm achieved the lowest standard deviation in Test 1 and what was its value?",
+    "query_en": "Fig. 15 Standard deviation IEQ_Tot RL methods A2C PPO DQN MORL Test 1",
+    "expected_answer": "According to Fig. 15 (Section 6.1), MORL achieved the lowest standard deviation of IEQ_Tot in Test 1 with a value of 1.66 (compared to PPO = 3.17, DQN = 6.42, and A2C = 9.02).",
+    "expected_chunk_ids": [
+      "chunk_034",
+      "chunk_035"
+    ],
+    "source_pages": [
+      17,
+      18
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q14",
+    "type": "formula",
+    "language": "id",
+    "question": "Bagaimana perumusan Bellman Equation standar untuk pembaruan nilai Q pada Q-learning (Persamaan 1 di paper)?",
+    "query_en": "Bellman Equation standard Q-learning update rule alpha gamma",
+    "expected_answer": "Persamaan (1) Bellman Equation untuk pembaruan Q-learning adalah: Q(s, a) <- (1 - alpha) * Q(s, a) + alpha * [R + gamma * max_a' Q(s', a')], di mana s adalah state, a adalah action, alpha adalah learning rate, R adalah immediate reward, gamma adalah discount factor, dan s' adalah next state.",
+    "expected_chunk_ids": [
+      "chunk_008"
+    ],
+    "source_pages": [
+      3,
+      4
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q15",
+    "type": "formula",
+    "language": "en",
+    "question": "How is the environmental comfort reward R_IEQ formulated in Eq. (16) as a weighted sum of the indoor comfort sub-indexes?",
+    "query_en": "R_IEQ reward function weighted sum TC_index AC_index VC_index p_TC p_AC p_VC",
+    "expected_answer": "In Eq. (16), the environmental comfort reward R_IEQ is formulated as: R_IEQ = p_TC * TC_index + p_AC * AC_index + p_VC * VC_index, where TC_index, AC_index, VC_index are thermal, acoustic, and visual comfort sub-indexes (0–100% scale), and p_TC, p_AC, p_VC are weights related to user preferences for each comfort type.",
+    "expected_chunk_ids": [
+      "chunk_015",
+      "chunk_016"
+    ],
+    "source_pages": [
+      6
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q16",
+    "type": "formula",
+    "language": "id",
+    "question": "Bagaimana rumus normalisasi jarak (Eq. 23) yang digunakan untuk R_door dan R_dist-users agar skalanya setara dengan metrik kenyamanan lainnya?",
+    "query_en": "distance normalization equation R_door R_dist-users min_dist max_dist",
+    "expected_answer": "Rumus normalisasi jarak (Eq. 23) adalah: overline{dist} = ((dist - min_dist) / (max_dist - min_dist)) * 100, di mana dist adalah jarak yang dinormalisasi, sedangkan max_dist dan min_dist adalah jarak maksimum dan minimum di kantor yang diteliti.",
+    "expected_chunk_ids": [
+      "chunk_016"
+    ],
+    "source_pages": [
+      6
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q17",
+    "type": "out_of_domain",
+    "language": "id",
+    "question": "Bagaimana resep dan langkah-langkah memasak rendang daging sapi khas Minangkabau?",
+    "query_en": "recipe steps cooking beef rendang Minangkabau cuisine",
+    "expected_answer": "Pertanyaan ini di luar cakupan sistem dan informasinya tidak terdapat di dalam dokumen paper penelitian.",
+    "expected_chunk_ids": [],
+    "source_pages": [],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q18",
+    "type": "out_of_domain_near",
+    "language": "id",
+    "question": "Berapa konsumsi listrik (kWh) sistem AC pada Office #1?",
+    "query_en": "air conditioning electricity power consumption kWh Office 1",
+    "expected_answer": "Pertanyaan ini di luar cakupan dokumen. Paper menyebutkan AC pada Office #1 menghasilkan kebisingan 55 dB dan setpoint suhu 23 °C, tetapi tidak mencantumkan data konsumsi listrik (kWh).",
+    "expected_chunk_ids": [],
+    "source_pages": [],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q19",
+    "type": "cross_section",
+    "language": "id",
+    "question": "Bagaimana perbedaan karakteristik fisik Office #1 dan Office #2 (Section 5) dan bagaimana kaitannya dengan hasil total reward kedua kantor pada Table 1 (Section 5.1)?",
+    "query_en": "Office 1 Office 2 physical characteristics dimensions windows Table 1 total reward synthesis",
+    "expected_answer": "Office #1 berukuran 4.5 × 3.5 × 2.8 m, lantai 15.75 m2, jendela 4 m2, dinding 40.8 m2, AC_R 13.65, satu jendela barat-laut dan satu AC; Office #2 lantai 14.75 m2, jendela 8 m2, dinding 36.8 m2, AC_R 14.28, dua jendela (barat-laut dan utara) dan dua AC; Table 1 (Mean 558.80 vs 561.27, DevStand 1.63 vs 1.20).",
+    "expected_chunk_ids": [
+      "chunk_021",
+      "chunk_022",
+      "chunk_023",
+      "chunk_025"
+    ],
+    "source_pages": [
+      8,
+      9,
+      10
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q20",
+    "type": "cross_section",
+    "language": "en",
+    "question": "How does the formulation of the multi-objective reward in Section 4.3 explain the trade-off observed between Layout Pattern #1 and Layout Pattern #2 for Office #1 in Tables 2 and 3?",
+    "query_en": "multi-objective reward trade-off Layout Pattern 1 2 Office 1 Table 2 Table 3 users distance",
+    "expected_answer": "In Tables 2 and 3, the comfort indexes for both patterns are virtually identical (acoustic 88.12/88.04 vs 88.03/88.04, thermal 95.0, visual 94.92/95.37). The main differences are the distance between users (304 cm in Pattern #1 vs 200 cm in Pattern #2) and door distances (304/360 cm vs 300/380 cm). The paper notes Pattern #2 gives a lower inter-user distance, while weights W = (0.4, 0.4, 0.2) in Section 4.3 prioritize IEQ satisfaction over distance constraints. The paper does not report total reward values in Tables 2 and 3.",
+    "expected_chunk_ids": [
+      "chunk_014",
+      "chunk_026"
+    ],
+    "source_pages": [
+      5,
+      6,
+      10,
+      11
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q21",
+    "type": "cross_section",
+    "language": "id",
+    "question": "Mengapa performa tata letak pada Office #2 dilaporkan lebih baik dan lebih konsisten dibandingkan Office #1?",
+    "query_en": "Office #2 Office #1 layout performance consistency comparison reasons",
+    "expected_answer": "Berdasarkan paper, Office #2 mencatat rata-rata total reward lebih tinggi (Mean 561.27 vs 558.80) dan deviasi standar lebih rendah (1.20 vs 1.63) yang menunjukkan stabilitas hasil lebih tinggi. Paper mencatat perbedaan fisik bahwa Office #1 berukuran 4.5 × 3.5 × 2.8 m (lantai 15.75 m2, jendela 4 m2, dinding 40.8 m2, AC_R 13.65, satu jendela barat-laut dan satu AC), sedangkan Office #2 memiliki denah non-persegi panjang (lantai 14.75 m2, jendela 8 m2, dinding 36.8 m2, AC_R 14.28, dua jendela dan dua AC). Namun, paper tidak memberikan penjelasan kausal teoritis mengapa Office #2 berkinerja lebih baik, melainkan hanya melaporkan temuan komparatif empiris tersebut (Hal. 8–10).",
+    "expected_chunk_ids": [
+      "chunk_021",
+      "chunk_022",
+      "chunk_023",
+      "chunk_025"
+    ],
+    "source_pages": [
+      8,
+      9,
+      10
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q22",
+    "type": "figure",
+    "language": "id",
+    "question": "Seberapa stabil hasil optimasi MORL jika dibandingkan dengan algoritma reinforcement learning lainnya seperti PPO, DQN, dan A2C?",
+    "query_en": "MORL optimization stability PPO DQN A2C convergence consistency comparison",
+    "expected_answer": "Berdasarkan evaluasi perbandingan metode RL pada Section 6.1 (Fig. 15, Hal. 18), MORL menghasilkan deviasi standar reward total (IEQ_Tot) paling rendah dan paling konsisten di semua pengujian. Contohnya pada Test 1, deviasi standar MORL adalah 1.66, jauh lebih rendah dan lebih stabil dibandingkan PPO (3.17), DQN (6.42), dan A2C (9.02). Deviasi standar yang rendah membuktikan MORL sangat stabil dan tidak rentan terhadap fluktuasi acak selama pelatihan.",
+    "expected_chunk_ids": [
+      "chunk_034",
+      "chunk_035"
+    ],
+    "source_pages": [
+      17,
+      18
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q23",
+    "type": "text",
+    "language": "id",
+    "question": "Berapa standar tingkat bising yang direkomendasikan untuk ruang kantor, dan apakah ruangan kantor uji memenuhi standar tersebut?",
+    "query_en": "recommended office noise level acoustic comfort test office noise level",
+    "expected_answer": "Standar kenyamanan akustik merekomendasikan tingkat tekanan suara sebesar 45 dB (dengan ambang indeks akustik ACindex > 95). Kedua kantor uji tidak memenuhi standar tersebut: pada Office #1 tingkat tekanan suara di setiap posisi mencapai sekitar 50 dB (Hal. 11), dan pada Office #2 tingkat tekanan suara di posisi pekerja mencapai sekitar 52 dB (Hal. 12). Akibatnya, kenyamanan akustik di kedua kantor berada di luar batas yang dapat diterima tanpa modifikasi desain ruangan.",
+    "expected_chunk_ids": [
+      "chunk_026",
+      "chunk_027",
+      "chunk_028"
+    ],
+    "source_pages": [
+      11,
+      12
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q24",
+    "type": "table",
+    "language": "en",
+    "question": "How does placing an occupant's chair close to the window affect their thermal comfort in Office #2 Layout Pattern #2?",
+    "query_en": "Office #2 Layout Pattern #2 chair near window thermal comfort",
+    "expected_answer": "Layout Pattern #2 Office #2 punya indeks termal lebih rendah (93.0 untuk User #1, Table 5); paper menjelaskannya dengan kedekatan kursi pekerja ke jendela.",
+    "expected_chunk_ids": [
+      "chunk_026",
+      "chunk_027"
+    ],
+    "source_pages": [
+      10,
+      11,
+      12
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q25",
+    "type": "figure",
+    "language": "en",
+    "question": "How does the multi-objective reinforcement learning approach compare to the genetic algorithm NSGA-II in terms of execution time across different test scenarios?",
+    "query_en": "execution time MORL NSGA-II test scenarios",
+    "expected_answer": "According to Section 6.2 (pages 19–21), the paper states that MORL finds optimal solutions in comparable times (Fig. 19) while achieving lower variability (Fig. 18). Printed execution times in Fig. 19 show MORL is slightly faster across all tests: Test 1 (4.00 s vs 4.40 s), Test 2 (7.82 s vs 8.52 s), Test 3 (11.58 s vs 12.61 s), Test 4 (15.68 s vs 16.37 s), and Test 5 (19.39 s vs 20.52 s).",
+    "expected_chunk_ids": [
+      "chunk_038"
+    ],
+    "source_pages": [
+      19,
+      20,
+      21
+    ],
+    "needs_manual_check": true
+  },
+  {
+    "id": "Q26",
+    "type": "text",
+    "language": "id",
+    "question": "Bagaimana pembobotan prioritas antara kepuasan kenyamanan lingkungan (IEQ) dan kendala jarak spasial pada fungsi reward penataan furnitur?",
+    "query_en": "IEQ comfort satisfaction spatial distance constraint reward function weighting priority",
+    "expected_answer": "Berdasarkan Section 5 (Hal. 9), bobot vektor tujuan Algoritma 3 ditetapkan W = (0.4, 0.4, 0.2). Bobot 0.4 untuk kepuasan IEQ masing-masing pengguna (R_user1 dan R_user2) dan bobot 0.2 untuk jarak antar pengguna (R_dist-users) menunjukkan bahwa kepuasan kualitas lingkungan dalam ruangan diprioritaskan lebih tinggi dibandingkan jarak antar pengguna.",
+    "expected_chunk_ids": [
+      "chunk_024"
+    ],
+    "source_pages": [
+      9
+    ],
+    "needs_manual_check": true
+  }
+]

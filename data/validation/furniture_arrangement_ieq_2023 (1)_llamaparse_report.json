@@ -1,0 +1,423 @@
+{
+  "status": "WARNING",
+  "summary": {
+    "total_pages": 22,
+    "total_items": 326,
+    "item_types": {
+      "header": 22,
+      "text": 232,
+      "heading": 22,
+      "image": 8,
+      "footer": 13,
+      "list": 3,
+      "link": 7,
+      "table": 19
+    },
+    "tables": 19,
+    "images": 8
+  },
+  "issues": [
+    {
+      "severity": "INFO",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 1,
+      "item": 5
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 8,
+      "item": 2
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 10,
+      "item": 4
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 10,
+      "item": 8
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 10,
+      "item": 8
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 10,
+      "item": 8
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 11,
+      "item": 4
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 11,
+      "item": 4
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 11,
+      "item": 10
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 11,
+      "item": 12
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 11,
+      "item": 13
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 11,
+      "item": 14
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 1
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 2
+    },
+    {
+      "severity": "WARNING",
+      "code": "header_value_type_mismatch",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 2
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 12,
+      "item": 2
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 12,
+      "item": 3
+    },
+    {
+      "severity": "WARNING",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 12,
+      "item": 12
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 13,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "EMPTY_MERGED_PLACEHOLDER",
+      "message": "Tabel kosong merupakan placeholder yang digabung ke halaman lain.",
+      "page": 14,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 14,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 14,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "IMAGE_WITHOUT_CAPTION",
+      "message": "Gambar tidak memiliki caption atau Markdown.",
+      "page": 14,
+      "item": 5
+    },
+    {
+      "severity": "INFO",
+      "code": "EMPTY_MERGED_PLACEHOLDER",
+      "message": "Tabel kosong merupakan placeholder yang digabung ke halaman lain.",
+      "page": 15,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 15,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 15,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "EMPTY_MERGED_PLACEHOLDER",
+      "message": "Tabel kosong merupakan placeholder yang digabung ke halaman lain.",
+      "page": 16,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 17,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 18,
+      "item": 1
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 18,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 18,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "multi_table_page",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 18,
+      "item": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "EMPTY_MERGED_PLACEHOLDER",
+      "message": "Tabel kosong merupakan placeholder yang digabung ke halaman lain.",
+      "page": 19,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 20,
+      "item": 1
+    },
+    {
+      "severity": "WARNING",
+      "code": "layout_lvm_disagreement",
+      "message": "LlamaParse melaporkan parse concern.",
+      "page": 21,
+      "item": 1
+    }
+  ],
+  "pages": [
+    {
+      "page_number": 1,
+      "item_count": 18,
+      "meaningful_item_count": 17,
+      "success": true
+    },
+    {
+      "page_number": 2,
+      "item_count": 12,
+      "meaningful_item_count": 12,
+      "success": true
+    },
+    {
+      "page_number": 3,
+      "item_count": 13,
+      "meaningful_item_count": 13,
+      "success": true
+    },
+    {
+      "page_number": 4,
+      "item_count": 17,
+      "meaningful_item_count": 17,
+      "success": true
+    },
+    {
+      "page_number": 5,
+      "item_count": 24,
+      "meaningful_item_count": 24,
+      "success": true
+    },
+    {
+      "page_number": 6,
+      "item_count": 28,
+      "meaningful_item_count": 28,
+      "success": true
+    },
+    {
+      "page_number": 7,
+      "item_count": 12,
+      "meaningful_item_count": 12,
+      "success": true
+    },
+    {
+      "page_number": 8,
+      "item_count": 11,
+      "meaningful_item_count": 11,
+      "success": true
+    },
+    {
+      "page_number": 9,
+      "item_count": 11,
+      "meaningful_item_count": 11,
+      "success": true
+    },
+    {
+      "page_number": 10,
+      "item_count": 11,
+      "meaningful_item_count": 11,
+      "success": true
+    },
+    {
+      "page_number": 11,
+      "item_count": 15,
+      "meaningful_item_count": 11,
+      "success": true
+    },
+    {
+      "page_number": 12,
+      "item_count": 13,
+      "meaningful_item_count": 11,
+      "success": true
+    },
+    {
+      "page_number": 13,
+      "item_count": 8,
+      "meaningful_item_count": 8,
+      "success": true
+    },
+    {
+      "page_number": 14,
+      "item_count": 7,
+      "meaningful_item_count": 5,
+      "success": true
+    },
+    {
+      "page_number": 15,
+      "item_count": 6,
+      "meaningful_item_count": 5,
+      "success": true
+    },
+    {
+      "page_number": 16,
+      "item_count": 11,
+      "meaningful_item_count": 10,
+      "success": true
+    },
+    {
+      "page_number": 17,
+      "item_count": 9,
+      "meaningful_item_count": 9,
+      "success": true
+    },
+    {
+      "page_number": 18,
+      "item_count": 7,
+      "meaningful_item_count": 7,
+      "success": true
+    },
+    {
+      "page_number": 19,
+      "item_count": 10,
+      "meaningful_item_count": 9,
+      "success": true
+    },
+    {
+      "page_number": 20,
+      "item_count": 9,
+      "meaningful_item_count": 9,
+      "success": true
+    },
+    {
+      "page_number": 21,
+      "item_count": 20,
+      "meaningful_item_count": 20,
+      "success": true
+    },
+    {
+      "page_number": 22,
+      "item_count": 54,
+      "meaningful_item_count": 54,
+      "success": true
+    }
+  ],
+  "document_id": "furniture_arrangement_ieq_2023 (1)",
+  "markdown": {
+    "path": "data/llamaparse_playground_original/furniture_arrangement_ieq_2023.md",
+    "characters": 81428,
+    "lines": 689,
+    "html_tables": 15,
+    "image_references": 1,
+    "display_math_delimiters": 48
+  }
+}

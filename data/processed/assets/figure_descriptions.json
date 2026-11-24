@@ -1,0 +1,149 @@
+{
+  "page_1_item_5": {
+    "skip": true,
+    "reason": "Terlalu kecil (13x10 px)"
+  },
+  "page_11_item_10": {
+    "page": 11,
+    "item": 10,
+    "caption": "Fig. 8 – Thermal comfort index office #1",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Thermal Comfort index (TC index) untuk 20 test pada Office #1. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Thermal Comfort index (rentang 80–100%). Batang oranye mewakili User 1 dan batang kuning mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 90%). Seluruh nilai TC index untuk User 1 dan User 2 pada Test 1–20 stabil pada nilai sekitar 95%, melampaui batas standar minimum.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_08.png",
+    "source": "manual_known"
+  },
+  "page_11_item_12": {
+    "page": 11,
+    "item": 12,
+    "caption": "Fig. 4 – Office #1-layout pattern #1",
+    "description": "Diagram denah kantor Office #1 (4.5×3.5 m) menampilkan Layout Pattern #1: posisi dua meja kerja (Desk User #1 di koordinat (2,2) orientasi Horizontal-up; Desk User #2 di koordinat (5,2) orientasi Horizontal-down). Jarak antar pengguna 304 cm, keduanya jauh dari pintu.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_04.png",
+    "source": "manual_known"
+  },
+  "page_11_item_13": {
+    "page": 11,
+    "item": 13,
+    "caption": "Fig. 6 – Office #2-layout pattern #1",
+    "description": "Diagram denah kantor Office #2 menampilkan Layout Pattern #1: posisi dua meja kerja (Desk User #1 di koordinat (5,8) orientasi Vertical-left; Desk User #2 di koordinat (0,2) orientasi Horizontal-down). Jarak antar pengguna 370 cm.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_06.png",
+    "source": "manual_known"
+  },
+  "page_11_item_14": {
+    "page": 11,
+    "item": 14,
+    "caption": "Fig. 5 – Office #1-layout pattern #2",
+    "description": "Diagram denah kantor Office #1 menampilkan Layout Pattern #2: posisi dua meja kerja (Desk User #1 di koordinat (2,1) orientasi Vertical-right; Desk User #2 di koordinat (5,2) orientasi Horizontal-down). Jarak antar pengguna 200 cm, lebih dekat dari Layout Pattern #1.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_05.png",
+    "source": "manual_known"
+  },
+  "page_12_item_3": {
+    "page": 12,
+    "item": 3,
+    "caption": "Fig. 7 – Office #2-layout pattern #2",
+    "description": "Diagram denah kantor Office #2 menampilkan Layout Pattern #2: posisi dua meja kerja (Desk User #1 di koordinat (1,2) orientasi Horizontal-up; Desk User #2 di koordinat (4,7) orientasi Horizontal-down). Jarak antar pengguna 353 cm.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_07.png",
+    "source": "manual_known"
+  },
+  "page_12_item_12": {
+    "page": 12,
+    "item": 12,
+    "caption": "Fig. 9 – Acoustics comfort index office #1",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Acoustics Comfort index (AC index) untuk 20 test pada Office #1. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Acoustics Comfort index (rentang 70–100%). Batang biru tua mewakili User 1 dan batang kuning mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 95%). Nilai AC index berkisar sekitar 87% hingga 88%, seluruhnya berada di bawah ambang batas karena tekanan akustik kombinasi unit AC (sekitar 55 dB) dan koridor/aisle (sekitar 50 dB).",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_09.png",
+    "source": "manual_known"
+  },
+  "page_14_item_5": {
+    "skip": true,
+    "reason": "Terlalu kecil (43x12 px)"
+  },
+  "page_8_fig1": {
+    "page": 8,
+    "caption": "Fig. 1 – Office #1 and illuminance values on its surface",
+    "description": "Denah kantor Office #1 (4.5×3.5 m, grid 9×7 sel @ 0.5m) dengan nilai illuminance dalam lux untuk setiap sel. Jendela menghadap barat-laut di sisi kiri; pintu di sisi kanan bawah. AC unit di bawah jendela (55 dB). Distribusi cahaya: pojok kiri atas (gelap, 50–130 lx), area tengah (~300 lx), area dekat jendela (500–800 lx). Matriks nilai illuminance lengkap (7 baris × 9 kolom): Baris 1: [80,50,130,130,130,110,100,90,90]; Baris 2: [80,50,130,130,130,110,100,90,90]; Baris 3: [440,350,350,300,300,300,100,90,90]; Baris 4: [540,350,350,300,300,200,200,150,90]; Baris 5: [800,350,300,300,300,200,200,150,125]; Baris 6: [700,350,370,300,300,200,200,150,110]; Baris 7: [300,350,370,330,200,190,190,180,200].",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_01.png",
+    "source": "manual_known"
+  },
+  "page_9_fig2": {
+    "page": 9,
+    "caption": "Fig. 2 – Office #2 and illuminance values on its surface",
+    "description": "Denah kantor Office #2 (grid 9×7 sel @ 0.5m) dengan dua jendela: barat-laut dan utara. Pintu di sudut dinding bawah. Dua unit AC di dinding berlawanan (masing-masing 55 dB). Distribusi cahaya: area tengah (~300 lx), dekat jendela barat-laut (500–700 lx), dekat jendela utara (400–550 lx), sudut gelap (nilai 0 untuk area di luar ruangan). Matriks nilai illuminance lengkap (7 baris × 9 kolom): Baris 1: [400,580,550,550,250,200,200,0,0]; Baris 2: [350,550,530,500,330,330,340,0,0]; Baris 3: [250,350,350,300,300,300,300,90,90]; Baris 4: [250,350,350,300,300,300,450,580,700]; Baris 5: [250,300,300,300,300,330,430,550,680]; Baris 6: [200,300,300,300,300,330,430,530,650]; Baris 7: [190,250,250,330,200,190,400,500,630].",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_02.png",
+    "source": "manual_known"
+  },
+  "page_10_fig3": {
+    "page": 10,
+    "caption": "Fig. 3 – Possible desk orientations",
+    "description": "Diagram menampilkan 4 kemungkinan orientasi meja kerja (desk) dalam sistem grid ruangan: (1) HORIZONTAL-UP: meja horisontal, pengguna menghadap ke atas; (2) VERTICAL-RIGHT: meja vertikal, pengguna menghadap ke kanan; (3) VERTICAL-LEFT: meja vertikal, pengguna menghadap ke kiri; (4) HORIZONTAL-DOWN: meja horisontal, pengguna menghadap ke bawah. Setiap orientasi ditunjukkan dengan meja berukuran 150×50 cm dan simbol pengguna (kursi). Sumbu x′ dan y′ menunjukkan sistem koordinat referensi.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_03.png",
+    "source": "manual_known"
+  },
+  "page_13_fig10": {
+    "page": 13,
+    "caption": "Fig. 10 – Visual comfort index office #1",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Visual Comfort index (VC index) untuk 20 test pada Office #1. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Visual Comfort index (rentang 85–100%). Batang ungu tua mewakili User 1 dan batang ungu muda mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 97%). Nilai berkisar sekitar 93% hingga 95.5% (kecuali Test 7 User 1 yang turun ke sekitar 87%), seluruhnya berada di bawah standar karena orientasi jendela tunggal ke barat-laut yang tidak optimal sepanjang hari.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_10.png",
+    "source": "manual_known"
+  },
+  "page_14_fig11": {
+    "page": 14,
+    "caption": "Fig. 11 – Thermal comfort index office #2",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Thermal Comfort index (TC index) untuk 20 test pada Office #2. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Thermal Comfort index (rentang 80–100%). Batang oranye mewakili User 1 dan batang kuning mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 90%). Nilai mayoritas pengujian konsisten pada sekitar 95%, dengan penurunan kecil ke sekitar 93% pada Test 3, 4, 18, dan 20, seluruhnya melampaui standar.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_11.png",
+    "source": "manual_known"
+  },
+  "page_15_fig12": {
+    "page": 15,
+    "caption": "Fig. 12 – Acoustics comfort index office #2",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Acoustics Comfort index (AC index) untuk 20 test pada Office #2. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Acoustics Comfort index (rentang 70–100%). Batang biru tua mewakili User 1 dan batang kuning mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 95%). Nilai stabil di kisaran sekitar 85%, di bawah standar karena tekanan akustik gabungan dari dua unit AC (masing-masing sekitar 55 dB).",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_12.png",
+    "source": "manual_known"
+  },
+  "page_15_fig13": {
+    "page": 15,
+    "caption": "Fig. 13 – Visual comfort index office #2",
+    "description": "Diagram batang berdampingan (grouped bar chart) menampilkan Visual Comfort index (VC index) untuk 20 test pada Office #2. Sumbu-X: Test 1 hingga Test 20; Sumbu-Y: Visual Comfort index (rentang 85–100%). Batang ungu tua mewakili User 1 dan batang ungu muda mewakili User 2. Garis merah horizontal putus-putus menunjukkan ambang batas standar (threshold = 97%). Nilai berkisar sekitar 97% hingga 98.6% (kecuali Test 11 dan Test 19 yang sedikit turun ke sekitar 95%), sebagian besar melampaui threshold berkat adanya dua jendela pada dinding barat-laut dan utara.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_13.png",
+    "source": "manual_known"
+  },
+  "page_16_fig14": {
+    "page": 16,
+    "caption": "Fig. 14 – Mean values of IEQ_Tot related to optimal layout configurations (RL comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan nilai rata-rata kriteria evaluasi IEQ_Tot untuk 5 pengujian (#Test 1–5) pada 4 algoritma RL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Mean Value of IEQ_Tot (skala 595–620). Legenda: A2C (biru), PPO (oranye), DQN (kuning), MORL (ungu). Nilai eksak per test: Test 1: [A2C: 606.40, PPO: 610.93, DQN: 609.90, MORL: 616.69]; Test 2: [A2C: 606.33, PPO: 613.62, DQN: 611.85, MORL: 617.91]; Test 3: [A2C: 611.93, PPO: 614.99, DQN: 614.24, MORL: 618.30]; Test 4: [A2C: 604.53, PPO: 614.73, DQN: 614.15, MORL: 618.57]; Test 5: [A2C: 603.35, PPO: 615.46, DQN: 614.24, MORL: 618.63]. MORL secara konsisten mencapai IEQ_Tot tertinggi di setiap pengujian.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_14.png",
+    "source": "manual_known"
+  },
+  "page_16_fig15": {
+    "page": 16,
+    "caption": "Fig. 15 – Standard deviation of IEQ_Tot related to optimal layout configurations (RL comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan standar deviasi IEQ_Tot untuk 5 pengujian (#Test 1–5) pada algoritma RL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Standard Deviation (skala 0–10). Legenda: A2C (biru), PPO (oranye), DQN (kuning), MORL (ungu). Nilai eksak per test: Test 1: [A2C: 9.02, PPO: 3.17, DQN: 6.42, MORL: 1.66]; Test 2: [A2C: 6.71, PPO: 2.16, DQN: 3.21, MORL: 1.92]; Test 3: [A2C: 4.89, PPO: 2.23, DQN: 2.45, MORL: 1.45]; Test 4: [A2C: 6.46, PPO: 2.11, DQN: 2.46, MORL: 1.14]; Test 5: [A2C: 5.35, PPO: 2.05, DQN: 2.01, MORL: 0.89]. MORL memiliki standar deviasi terendah (terbaik/paling stabil), sedangkan A2C paling fluktuatif.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_15.png",
+    "source": "manual_known"
+  },
+  "page_16_fig16": {
+    "page": 16,
+    "caption": "Fig. 16 – Execution times (RL comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan waktu eksekusi untuk 5 pengujian (#Test 1–5) pada 4 algoritma RL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Execution Time [s] (dalam detik, skala 0–30 s). Legenda: A2C (biru), PPO (oranye), DQN (kuning), MORL (ungu). Nilai eksak per test: Test 1: [A2C: 9.71 s, PPO: 8.10 s, DQN: 9.22 s, MORL: 4.00 s]; Test 2: [A2C: 14.52 s, PPO: 10.98 s, DQN: 14.19 s, MORL: 7.82 s]; Test 3: [A2C: 19.34 s, PPO: 13.43 s, DQN: 19.34 s, MORL: 11.58 s]; Test 4: [A2C: 23.77 s, PPO: 15.82 s, DQN: 24.16 s, MORL: 15.68 s]; Test 5: [A2C: 28.54 s, PPO: 18.20 s, DQN: 28.93 s, MORL: 19.39 s]. MORL menyelesaikan pelatihan tercepat di semua sesi pengujian.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_16.png",
+    "source": "manual_known"
+  },
+  "page_17_fig17": {
+    "page": 17,
+    "caption": "Fig. 17 – Mean values of IEQ_Tot related to optimal layout configurations (NSGA-II comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan nilai rata-rata IEQ_Tot untuk 5 pengujian (#Test 1–5) antara algoritma NSGA-II dan MORL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Mean Value of IEQ_Tot (skala 595–620). Legenda: NSGA-II (hijau), MORL (ungu). Nilai eksak per test: Test 1: [NSGA-II: 610.24, MORL: 616.69]; Test 2: [NSGA-II: 610.15, MORL: 617.91]; Test 3: [NSGA-II: 612.55, MORL: 618.30]; Test 4: [NSGA-II: 612.44, MORL: 618.57]; Test 5: [NSGA-II: 612.00, MORL: 618.63]. MORL secara konsisten melampaui NSGA-II dalam kualitas optimasi IEQ_Tot.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_17.png",
+    "source": "manual_known"
+  },
+  "page_18_fig18": {
+    "page": 18,
+    "caption": "Fig. 18 – Standard deviation of IEQ_Tot related to optimal layout configurations (NSGA-II comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan standar deviasi IEQ_Tot untuk 5 pengujian (#Test 1–5) antara NSGA-II dan MORL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Standard Deviation (skala 0–5). Legenda: NSGA-II (hijau), MORL (ungu). Nilai eksak per test: Test 1: [NSGA-II: 4.53, MORL: 1.66]; Test 2: [NSGA-II: 3.87, MORL: 1.92]; Test 3: [NSGA-II: 2.66, MORL: 1.45]; Test 4: [NSGA-II: 3.12, MORL: 1.14]; Test 5: [NSGA-II: 4.03, MORL: 0.89]. MORL menghasilkan variabilitas solusi yang jauh lebih kecil dan konsisten dibanding NSGA-II.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_18.png",
+    "source": "manual_known"
+  },
+  "page_19_fig19": {
+    "page": 19,
+    "caption": "Fig. 19 – Execution times (NSGA-II comparison)",
+    "description": "Diagram batang berkelompok (grouped bar chart) membandingkan waktu eksekusi untuk 5 pengujian (#Test 1–5) antara NSGA-II dan MORL. Sumbu-X: #Test (1 sampai 5); Sumbu-Y: Execution Time [s] (dalam detik, skala 0–22 s). Legenda: NSGA-II (hijau), MORL (ungu). Nilai eksak per test: Test 1: [NSGA-II: 4.40 s, MORL: 4.00 s]; Test 2: [NSGA-II: 8.52 s, MORL: 7.82 s]; Test 3: [NSGA-II: 12.61 s, MORL: 11.58 s]; Test 4: [NSGA-II: 16.37 s, MORL: 15.68 s]; Test 5: [NSGA-II: 20.52 s, MORL: 19.39 s]. MORL sedikit lebih cepat di setiap test dibanding konfigurasi sepadan NSGA-II.",
+    "asset_path": "/home/advance/backend-dss/data/processed/assets/furniture_arrangement_ieq_2023/fig_19.png",
+    "source": "manual_known"
+  }
+}
